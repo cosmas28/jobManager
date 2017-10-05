@@ -13,7 +13,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://yourdomain.com';
+$config['base_url']	= 'http://www.taskjet.co.ke';
 /*
 |--------------------------------------------------------------------------
 | Index File
