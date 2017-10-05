@@ -366,6 +366,24 @@ INSERT INTO `pp_job_titles` VALUES ('1', 'Web Designer', 'Web Designer'), ('2', 
 COMMIT;
 
 -- ----------------------------
+--  Table structure for `pp_newsletter`
+-- ----------------------------
+DROP TABLE IF EXISTS `pp_newsletter`;
+CREATE TABLE `pp_newsletter` (
+  `ID` int(11) NOT NULL AUTO_INCREMENT,
+  `email_name` varchar(50) DEFAULT NULL,
+  `from_name` varchar(60) DEFAULT NULL,
+  `from_email` varchar(120) DEFAULT NULL,
+  `email_subject` varchar(100) DEFAULT NULL,
+  `email_body` text,
+  `email_interval` int(4) DEFAULT NULL,
+  `status` enum('inactive','active') DEFAULT 'active',
+  `dated` datetime DEFAULT NULL,
+  PRIMARY KEY (`ID`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+
+-- ----------------------------
 --  Table structure for `pp_post_jobs`
 -- ----------------------------
 DROP TABLE IF EXISTS `pp_post_jobs`;
