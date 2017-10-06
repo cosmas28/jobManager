@@ -5,18 +5,50 @@
 	Overwriting Default Theme Styles for Better Hanlding Updates
 -----------------------------------------------------------------*/
 
-#imaginary_container{
-    margin-top:20%; /* Don't copy this */
+.input-fld {
+	margin: auto;;
 }
-.stylish-input-group .input-group-addon{
-    background: white !important; 
+
+.input-fld input {
+	width: 100%;
+	padding: 12px 12px;
+	margin: 8px 0px  8px 0px;
+	box-sizing: border-box;;
+	border: 4px solid #3CBC8D;
+	border-radius: 4px;
+	background-color: white;
+	color: black;
 }
-.stylish-input-group .form-control{
-	border-right:0; 
-	box-shadow:0 0 0; 
-	border-color:#ccc;
+
+.input-fld input:focus {
+	background-color: #c0c0c0;
 }
-.stylish-input-group button{
-    border:0;
-    background:transparent;
+
+.input-fld select {
+	width: 100%;
+	padding: 12px 12px;
+	margin: 8px 0px  8px 0px;
+	display: inline-block;
+	border: 4px solid #3CBC8D;
+	border-radius: 4px;
+	box-sizing: border-box;
+	background-color: white;
+	color: black;
+}
+
+.input-fld button:hover {
+	background-color: #0000ff;
+}
+
+.input-fld button {
+	background-color: #4caf50;
+	width: 100%;
+	border: 4px solid black;
+	border-radius: 4px;
+	color: white;
+	padding: 12px 12px;
+	text-decoration: none;
+	margin: 8px 0px  8px 0px;
+	margin-top: 8px;
+	cursor: pointer;
 }
