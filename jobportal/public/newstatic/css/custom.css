@@ -54,7 +54,7 @@
 }
 
 .job-box-btn {
-	background-color: #00FFFF;
+	background-color: #1E90FF;
 	width: 100%;
 	border: 1px solid black;
 	border-radius: 8px;
@@ -67,5 +67,16 @@
 }
 
 .job-box-btn a:hover {
-	background-color: #0000ff;
+	background-color: #228B22;
+}
+
+.city-links {
+	color: white;
+	font-size: 1.2em;
+	padding: 20px 0px 40px 0px;
+	margin: 20px 0px 40px 0px;
+}
+
+.city-links:hover{
+	color: #00FFFF;
 }
