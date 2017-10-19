@@ -1047,7 +1047,7 @@ DROP PROCEDURE IF EXISTS `get_active_posted_job_by_id`;
 delimiter ;;
 CREATE  PROCEDURE `get_active_posted_job_by_id`(IN job_id INT(11))
 BEGIN
-	SELECT pp_post_jobs.*, pc.ID AS CID, emp.first_name, emp.email AS employer_email, pp_job_industries.industry_name, pc.company_name, pc.company_email, pc.company_ceo, pc.company_description, pc.company_logo, pc.company_phone, pc.company_website, pc.company_fax,pc.no_of_offices, pc.no_of_employees, pc.established_in, pc.industry_ID AS cat_ID, pc.company_location, pc.company_slug
+	SELECT pp_post_jobs.*, pc.ID AS CID, emp.first_name, emp.email AS employer_email, pp_job_industries.industry_name, pc.company_name, pc.company_email, pc.company_description, pc.company_logo, pc.company_phone, pc.industry_ID AS cat_ID, pc.company_location, pc.company_slug
 ,emp.city as emp_city, emp.country as emp_country
 FROM `pp_post_jobs`
 	INNER JOIN pp_companies AS pc ON pp_post_jobs.company_ID=pc.ID
@@ -1227,7 +1227,7 @@ DROP PROCEDURE IF EXISTS `get_company_by_slug`;
 delimiter ;;
 CREATE  PROCEDURE `get_company_by_slug`(IN slug VARCHAR(70))
 BEGIN
-	SELECT emp.ID AS empID, pc.ID, emp.country, emp.city, pc.company_name, pc.company_description, pc.company_location, pc.company_website, pc.no_of_employees, pc.established_in, pc.company_logo, pc.company_slug
+	SELECT emp.ID AS empID, pc.ID, emp.country, emp.city, pc.company_name, pc.company_description, pc.company_location, pc.company_logo, pc.company_slug
 	FROM `pp_employers` AS emp
 	INNER JOIN pp_companies AS pc ON emp.company_ID=pc.ID
 	WHERE pc.company_slug=slug AND emp.sts='active';
@@ -1368,7 +1368,7 @@ delimiter ;;
 CREATE  PROCEDURE `get_posted_job_by_id`(IN job_id INT(11))
 BEGIN
 	#Routine body goes here...
-	SELECT pp_post_jobs.*, pc.ID AS CID, pp_job_industries.industry_name, pc.company_name, pc.company_email, pc.company_ceo, pc.company_description, pc.company_logo, pc.company_phone, pc.company_website, pc.company_fax,pc.no_of_offices, pc.no_of_employees, pc.established_in, pc.industry_ID AS cat_ID, pc.company_location, pc.company_slug
+	SELECT pp_post_jobs.*, pc.ID AS CID, pp_job_industries.industry_name, pc.company_name, pc.company_email, pc.company_description, pc.company_logo, pc.company_phone, pc.company_fax,pc.industry_ID AS cat_ID, pc.company_location, pc.company_slug
 ,em.city as emp_city, em.country as emp_country
 	FROM `pp_post_jobs`
 	INNER JOIN pp_companies AS pc ON pp_post_jobs.company_ID=pc.ID
@@ -1386,7 +1386,7 @@ DROP PROCEDURE IF EXISTS `get_posted_job_by_id_employer_id`;
 delimiter ;;
 CREATE  PROCEDURE `get_posted_job_by_id_employer_id`(IN job_id INT(11), emp_id INT(11))
 BEGIN
-	SELECT pp_post_jobs.*, pc.ID AS CID, pp_job_industries.industry_name, pc.company_name, pc.company_email, pc.company_ceo, pc.company_description, pc.company_logo, pc.company_phone, pc.company_website, pc.company_fax,pc.no_of_offices, pc.no_of_employees, pc.established_in, pc.industry_ID AS cat_ID, pc.company_location, pc.company_slug
+	SELECT pp_post_jobs.*, pc.ID AS CID, pp_job_industries.industry_name, pc.company_name, pc.company_email, pc.company_description, pc.company_logo, pc.company_phone, pc.industry_ID AS cat_ID, pc.company_location, pc.company_slug
 	FROM `pp_post_jobs`
 	INNER JOIN pp_companies AS pc ON pp_post_jobs.company_ID=pc.ID
 	INNER JOIN pp_employers AS emp ON pp_post_jobs.employer_ID=emp.ID
