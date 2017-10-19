@@ -208,8 +208,8 @@
                         </div>
                         <div class="col-md-6 col-xs-6">
                           <div class="job-box">
-                            <h4><a href="<?php echo base_url('jobs/'.$row_latest_jobs->job_slug);?>" title="<?php echo $row_latest_jobs->job_title;?>"><?php echo $job_title;?></a></h4>
-    												<a href="<?php echo base_url('company/'.$row_latest_jobs->company_slug);?>" title="Jobs in <?php echo $row_latest_jobs->company_name;?>"><?php echo $row_latest_jobs->company_name;?></a>&nbsp;-&nbsp; <?php echo $row_latest_jobs->city;?>
+                            <div class="j-title"><a href="<?php echo base_url('jobs/'.$row_latest_jobs->job_slug);?>" title="<?php echo $row_latest_jobs->job_title;?>"><?php echo $job_title;?></a>&nbsp;-&nbsp; <?php echo $row_latest_jobs->pay;?></div>
+    												<div class="j-loc"><a href="<?php echo base_url('company/'.$row_latest_jobs->company_slug);?>" title="Jobs in <?php echo $row_latest_jobs->company_name;?>"><?php echo $row_latest_jobs->company_name;?></a>&nbsp;-&nbsp; <?php echo $row_latest_jobs->city;?></div>
                           </div>
                         </div>
                         <div class="col-md-4 col-xs-4">
