@@ -1,6 +1,6 @@
 <IfModule mod_rewrite.c>
     RewriteEngine On
-	RewriteBase //
+	RewriteBase /jobManager/jobportal/
     RewriteCond %{REQUEST_URI} ^jp_sys.*
     RewriteRule ^(.*)$ /index.php?/$1 [L]
 

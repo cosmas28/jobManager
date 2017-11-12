@@ -19,7 +19,7 @@
  */
  	set_time_limit(0);
 	ini_set('memory_limit', '-1');
-	date_default_timezone_set("Kenya/Nairobi");
+	date_default_timezone_set("America/Chicago");
 	define('ENVIRONMENT', 'production');
 /*
  *---------------------------------------------------------------

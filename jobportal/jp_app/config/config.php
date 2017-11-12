@@ -13,7 +13,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://www.taskjet.co.ke';
+$config['base_url']	= 'http://localhost/jobManager/jobportal';
 /*
 |--------------------------------------------------------------------------
 | Index File

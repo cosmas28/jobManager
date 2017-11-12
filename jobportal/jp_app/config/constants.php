@@ -33,9 +33,9 @@ define('FOPEN_READ_WRITE_CREATE',				'a+b');
 define('FOPEN_WRITE_CREATE_STRICT',				'xb');
 define('FOPEN_READ_WRITE_CREATE_STRICT',		'x+b');
 
-define('SITE_NAME',		'Job Portal');
-define('SITE_URL',		'JobPortal.Com');
-define('ADMIN_EMAIL',	'info@codeareena.com');
+define('SITE_NAME',		'Task Jet');
+define('SITE_URL',		'taskjet.co.ke');
+define('ADMIN_EMAIL',	'augubilla100@gmail.com');
 define('INDEED_KEY',		'6608457590166428');
 
 
