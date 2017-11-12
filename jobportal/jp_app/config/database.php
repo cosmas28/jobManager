@@ -47,9 +47,9 @@
 $active_group = 'local';
 $active_record = TRUE;
 $db['local']['hostname'] = 'localhost';
-$db['local']['username'] = 'YOURUSERNAME';
-$db['local']['password'] = 'YOURDBPASSWORD';
-$db['local']['database'] = 'YOURDATABASE';
+$db['local']['username'] = 'root';
+$db['local']['password'] = '';
+$db['local']['database'] = 'jobmanager';
 $db['local']['dbdriver'] = 'mysqli';
 $db['local']['dbprefix'] = '';
 $db['local']['pconnect'] = TRUE;
