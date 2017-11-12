@@ -156,7 +156,7 @@ pharetra elementum lectus elit ac felis. Sed fermentum luctus aliquet.
 Vestibulum pulvinar ornare ipsum, gravida condimentum nulla luctus sit amet.
 Sed tempor eros a tempor faucibus. Proin orci tortor, placerat sit amet elementum sit amet, ornare vel urna.',
 'Lorem ipsum dolor street, 32423', '313313137', 'JOBPORTAL-1457690431.jpg', null, 'active',
-null, 'mega-technologies', 'Private');
+null, 'mega-technologies', null, 'Private');
 COMMIT;
 
 -- ----------------------------
