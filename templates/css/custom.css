@@ -66,6 +66,26 @@
     margin-right: 1%;
 }
 
+.job-box div#jb-title {
+    font-size: 21px;
+}
+
+#jb-title a{
+    color: #008000;
+}
+
+#jb-title a:hover{
+    color: #000000;
+}
+
+.job-box div#jb-city {
+    font-size: 18px;
+}
+
+.job-box div#jb-date {
+    font-size: 15px;
+}
+
 .job-box-btn {
     background-color: #1E90FF;
     width: 100%;
