@@ -5,18 +5,86 @@
 	Overwriting Default Theme Styles for Better Hanlding Updates
 -----------------------------------------------------------------*/
 
-#imaginary_container{
-    margin-top:20%; /* Don't copy this */
+.input-fld {
+    margin: auto;;
 }
-.stylish-input-group .input-group-addon{
-    background: white !important; 
+
+.search-container {
+    margin: 30px auto;
+    width: 70%;
 }
-.stylish-input-group .form-control{
-	border-right:0; 
-	box-shadow:0 0 0; 
-	border-color:#ccc;
+
+.input-fld input {
+    width: 100%;
+    padding: 12px 12px;
+    /*padding-right: 30px;*/
+    margin: 8px 0px  8px 0px;
+    box-sizing: border-box;;
+    border: 1px solid #3CBC8D;
+    border-radius: 4px;
+    background-color: white;
+    opacity: 0.65;
+    color: black;
 }
-.stylish-input-group button{
-    border:0;
-    background:transparent;
+
+.input-fld input:focus {
+    background-color: #c0c0c0;
+}
+
+.input-fld select {
+    width: 100%;
+    padding: 12px 12px;
+    margin: 8px 0px  8px 0px;
+    display: inline-block;
+    border: 1px solid #3CBC8D;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: white;
+    opacity: 0.65;
+    color: black;
+}
+
+.input-fld button:hover {
+    background-color: #0000ff;
+}
+
+.input-fld button {
+    background-color: #4caf50;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 4px;
+    color: white;
+    padding: 12px 12px;
+    text-decoration: none;
+    margin: 8px 0px  8px 0px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.job-box-btn {
+    background-color: #1E90FF;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 8px;
+    color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+    margin: 8px 0px  8px 0px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.job-box-btn a:hover {
+    background-color: #228B22;
+}
+
+.city-links {
+    color: white;
+    font-size: 1.2em;
+    padding: 20px 0px 40px 0px;
+    margin: 20px 0px 40px 0px;
+}
+
+.city-links:hover{
+    color: #00FFFF;
 }
