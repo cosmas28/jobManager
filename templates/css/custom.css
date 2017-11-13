@@ -61,6 +61,11 @@
     cursor: pointer;
 }
 
+.job-box {
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
 .job-box-btn {
     background-color: #1E90FF;
     width: 100%;
@@ -69,13 +74,15 @@
     color: white;
     padding: 10px 10px;
     text-decoration: none;
-    margin: 8px 0px  8px 0px;
+    margin: 0px 0px  0px 0px;
     margin-top: 8px;
+    float: left;
     cursor: pointer;
 }
 
-.job-box-btn a:hover {
+.job-box-btn:hover {
     background-color: #228B22;
+    color: #FFFFFF;
 }
 
 .city-links {
