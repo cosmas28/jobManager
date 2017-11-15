@@ -31,7 +31,7 @@
 <section id="content">
   <div class="content-wrap">
     <!-- Job categories ============================================= -->
-      <div class="container clearfix">
+      <div class="container clearfix notopmargin nobottommargin">
         <div id="section-features" class="heading-block title-center page-section">
           <h2>Find a job you love</h2>
           <span>Each month, more than 7 million jobseekers turn to website in their search for work</span>
@@ -150,8 +150,48 @@
         </div>
       </div>
     <!-- ./Job categories ============================================= -->
+      <div class="section dark notopmargin nobottommargin" style="padding-top: 60px;padding-bottom: 150px;">
+          <div class="container clearfix">
+              <div id="section-features" class="heading-block title-center page-section">
+                  <h2>How TaskJet works</h2>
+                  <span>TaskJet is a trusted community marketplace for people and businesses to outsource tasks,
+								find local services or hire flexible staff in minutes - online or on your mobile.
+							</span>
+              </div>
+
+              <div class="col_one_third">
+                  <div class="feature-box fbox-plain">
+                      <div class="fbox-icon">
+                          <a href="#"><i class="icon-screen"></i></a>
+                      </div>
+                      <h3>post your task</h3>
+                      <p>Tell us what you need. It's FREE to post.</p>
+                  </div>
+              </div>
+
+              <div class="col_one_third">
+                  <div class="feature-box fbox-plain">
+                      <div class="fbox-icon">
+                          <a href="#"><i class="icon-eye"></i></a>
+                      </div>
+                      <h3>Review Resume</h3>
+                      <p>Receive offers from trusted Airtasker Workers.</p>
+                  </div>
+              </div>
+
+              <div class="col_one_third col_last">
+                  <div class="feature-box fbox-plain">
+                      <div class="fbox-icon">
+                          <a href="#"><i class="icon-line2-wrench"></i></a>
+                      </div>
+                      <h3>Get more done</h3>
+                      <p>Choose the right person for the task and get more done.</p>
+                  </div>
+              </div>
+          </div>
+      </div>
     <!-- top employers ============================================= -->
-      <div class="section">
+      <div class="section notopmargin nobottommargin" style="padding-top: 100px;">
         <div class="container clearfix">
           <div id="section-testimonials" class="heading-block title-center page-section">
             <h2>Top Employers</h2>
@@ -174,13 +214,58 @@
              ?>
           </div>
         </div>
-      </div>
 
-      <div class="divider divider-short divider-center"><i class="icon-circle"></i></div>
-
-      <div class="container clearfix">
       <!-- ./top employers ============================================= -->
+    <div class="section dark notopmargin" style="padding-top: 60px;">
+        <div class="container clearfix">
+            <div id="section-features" class="heading-block title-center page-section">
+                <h2>Top Rated Insurance</h2>
+                <span>taskJet Insurance provided by CGU covers the taskJet Worker for their liability to
+								third parties for personal injury or property damage whilst performing certain task activities.
+							</span>
+            </div>
 
+            <div class="col_half">
+                <div class="feature-box fbox-plain">
+                    <div class="fbox-icon">
+                        <a href="#"><i class="icon-line-circle-plus"></i></a>
+                    </div>
+                    <h3>Free to post</h3>
+                    <p>It's completely free to post your task on Airtasker. Then you'll start receiving offers from Airtasker Workers who want to do it for you.</p>
+                </div>
+            </div>
+
+            <div class="col_half col_last">
+                <div class="feature-box fbox-plain">
+                    <div class="fbox-icon">
+                        <a href="#"><i class="icon-line-square-check"></i></a>
+                    </div>
+                    <h3>You’re in control</h3>
+                    <p>When you're happy with the offers you decide which taskJet Worker you'd like to complete the task.</p>
+                </div>
+            </div>
+
+            <div class="col_half">
+                <div class="feature-box fbox-plain">
+                    <div class="fbox-icon">
+                        <a href="#"><i class="icon-wallet"></i></a>
+                    </div>
+                    <h3>Secure payment</h3>
+                    <p>taskJet Pay makes it simple and safe to pay for your task. Payment is held securely until you're happy the task is complete.</p>
+                </div>
+            </div>
+
+            <div class="col_half col_last">
+                <div class="feature-box fbox-plain">
+                    <div class="fbox-icon">
+                        <a href="#"><i class="icon-line2-badge"></i></a>
+                    </div>
+                    <h3>Trusted workers</h3>
+                    <p>Read their verified Reviews and check the Completion Rate to make sure you hire the best person for the task.</p>
+                </div>
+            </div>
+        </div>
+    </div>
       <!--Latest Jobs Block-->
       <div class="container clearfix">
         <div id="section-specs" class="heading-block title-center page-section">
@@ -199,20 +284,20 @@
                   <div class="col-md-6 col-xs-12">
                     <div class="well">
                       <div class="row">
-                        <div class="col-md-2 col-xs-2">
+                        <div class="col-md-2 col-xs-2" style="padding: 0px;">
                           <div class="job-box">
                             <a href="<?php echo base_url('company/'.$row_latest_jobs->company_slug);?>" title="Jobs in <?php echo $row_latest_jobs->company_name;?>" class="thumbnail">
     												  	<img alt="<?php echo base_url('company/'.$row_latest_jobs->company_slug);?>" src="<?php echo base_url('public/uploads/employer/thumb/'.$image_name);?>" style="height: 80px; width: 100%; display: block;">
     												</a>
                           </div>
                         </div>
-                        <div class="col-md-6 col-xs-6">
+                        <div class="col-md-6 col-xs-6" style="padding: 0px;">
                           <div class="job-box">
-                            <div class="j-title"><a href="<?php echo base_url('jobs/'.$row_latest_jobs->job_slug);?>" title="<?php echo $row_latest_jobs->job_title;?>"><?php echo $job_title;?></a>&nbsp;-&nbsp; <?php echo $row_latest_jobs->pay;?></div>
-    												<div class="j-loc"><a href="<?php echo base_url('company/'.$row_latest_jobs->company_slug);?>" title="Jobs in <?php echo $row_latest_jobs->company_name;?>"><?php echo $row_latest_jobs->company_name;?></a>&nbsp;-&nbsp; <?php echo $row_latest_jobs->city;?></div>
+                            <div class="jb-title"><a href="<?php echo base_url('jobs/'.$row_latest_jobs->job_slug);?>" title="<?php echo $row_latest_jobs->job_title;?>"><?php echo $job_title;?></a>&nbsp;-&nbsp; <?php echo $row_latest_jobs->pay;?></div>
+                              <div class="jb-city"><a href="<?php echo base_url('company/'.$row_latest_jobs->company_slug);?>" title="Jobs in <?php echo $row_latest_jobs->company_name;?>"><?php echo $row_latest_jobs->company_name;?></a>&nbsp;-&nbsp; <?php echo $row_latest_jobs->city;?></div>
                           </div>
                         </div>
-                        <div class="col-md-4 col-xs-4">
+                        <div class="col-md-4 col-xs-4" style="padding: 0px;margin: 0px;">
                           <div class="job-box">
                             <a href="<?php echo base_url('jobs/'.$row_latest_jobs->job_slug.'?apply=yes');?>" class="job-box-btn" title="<?php echo $row_latest_jobs->industry_name.' Job in '.$row_latest_jobs->city;?>"><i class="icon-ok"></i>apply now</a>
                           </div>
@@ -225,101 +310,120 @@
               endif;
               ?>
           </div>
+            <div class="clear"></div>
         </div>
       </div>
-
-      <div class="clear"></div>
-      <div class="divider divider-short divider-center"><i class="icon-circle"></i></div>
       <!--./Latest Jobs Block-->
       <!--Cities-->
+    <div class="section parallax dark nobottommargin" style="background-image: url(<?php echo base_url('public/images/webdesign/home-testi-bg.jpg'); ?>); padding: 100px 0;" data-stellar-background-ratio="0.4">
+        <div class="container clearfix">
+            <div class="heading-block center">
+                <h3>Kenya Top Cities</h3>
+            </div>
 
-      <div class="container clearfix" style="background: url(<?php echo base_url('public/images/webdesign/loc-2.png');?>) center center no-repeat; background-size: cover; padding: 80px 10px 80px 10px;">
-        <div class="heading-block title-center page-section" id="section-specs">
-          <h2 style="color: #C0C0C0;">Kenya Top Cities</h2>
+            <div class="col_one_fourth">
+                <div class="feature-box fbox-small fbox-plain" data-animate="fadeIn" data-delay="600">
+                    <div class="fbox-icon">
+                        <a href="<?php echo base_url('search/nairobi');?>"><i class="icon-location"></i></a>
+                    </div>
+                    <h3><a href="<?php echo base_url('search/nairobi');?>">Nairobi</a></h3>
+                </div>
+            </div>
+            <div class="col_one_fourth">
+                <div class="feature-box fbox-small fbox-plain" data-animate="fadeIn" data-delay="600">
+                    <div class="fbox-icon">
+                        <a href="<?php echo base_url('search/nakuru');?>"><i class="icon-location"></i></a>
+                    </div>
+                    <h3><a href="<?php echo base_url('search/nakuru');?>">Nakuru</a></h3>
+                </div>
+            </div>
+
+            <div class="col_one_fourth">
+                <div class="feature-box fbox-small fbox-plain" data-animate="fadeIn" data-delay="600">
+                    <div class="fbox-icon">
+                        <a href="<?php echo base_url('search/mombasa');?>"><i class="icon-location"></i></a>
+                    </div>
+                    <h3><a href="<?php echo base_url('search/mombasa');?>">Mombasa</a></h3>
+                </div>
+            </div>
+            <div class="col_one_fourth col_last">
+                <div class="feature-box fbox-small fbox-plain" data-animate="fadeIn" data-delay="600">
+                    <div class="fbox-icon">
+                        <a href="<?php echo base_url('search/kitale');?>"><i class="icon-location"></i></a>
+                    </div>
+                    <h3><a href="<?php echo base_url('search/kitale');?>">Kitale</a></h3>
+                </div>
+            </div>
+            <div class="col_one_fourth">
+                <div class="feature-box fbox-small fbox-plain" data-animate="fadeIn" data-delay="600">
+                    <div class="fbox-icon">
+                        <a href="<?php echo base_url('search/narok');?>"><i class="icon-location"></i></a>
+                    </div>
+                    <h3><a href="<?php echo base_url('search/narok');?>">Narok</a></h3>
+                </div>
+            </div>
+            <div class="col_one_fourth">
+                <div class="feature-box fbox-small fbox-plain" data-animate="fadeIn" data-delay="600">
+                    <div class="fbox-icon">
+                        <a href="<?php echo base_url('search/lamu');?>"><i class="icon-location"></i></a>
+                    </div>
+                    <h3><a href="<?php echo base_url('search/lamu');?>">Lamu</a></h3>
+                </div>
+            </div>
+            <div class="col_one_fourth">
+                <div class="feature-box fbox-small fbox-plain" data-animate="fadeIn" data-delay="600">
+                    <div class="fbox-icon">
+                        <a href="<?php echo base_url('search/malindi');?>"><i class="icon-location"></i></a>
+                    </div>
+                    <h3><a href="<?php echo base_url('search/malindi');?>">Malindi</a></h3>
+                </div>
+            </div>
+            <div class="col_one_fourth col_last">
+                <div class="feature-box fbox-small fbox-plain" data-animate="fadeIn" data-delay="600">
+                    <div class="fbox-icon">
+                        <a href="<?php echo base_url('search/kisumu');?>"><i class="icon-location"></i></a>
+                    </div>
+                    <h3><a href="<?php echo base_url('search/kisumu');?>">Kisumu</a></h3>
+                </div>
+            </div>
+            <div class="col_one_fourth">
+                <div class="feature-box fbox-small fbox-plain" data-animate="fadeIn" data-delay="600">
+                    <div class="fbox-icon">
+                        <a href="<?php echo base_url('search/machakos');?>"><i class="icon-location"></i></a>
+                    </div>
+                    <h3><a href="<?php echo base_url('search/machakos');?>">Machakos</a></h3>
+                </div>
+            </div>
+            <div class="col_one_fourth">
+                <div class="feature-box fbox-small fbox-plain" data-animate="fadeIn" data-delay="600">
+                    <div class="fbox-icon">
+                        <a href="<?php echo base_url('search/eldoret');?>"><i class="icon-location"></i></a>
+                    </div>
+                    <h3><a href="<?php echo base_url('search/eldoret');?>">Eldoret</a></h3>
+                </div>
+            </div>
+            <div class="col_one_fourth">
+                <div class="feature-box fbox-small fbox-plain" data-animate="fadeIn" data-delay="600">
+                    <div class="fbox-icon">
+                        <a href="<?php echo base_url('search/athi-river');?>"><i class="icon-location"></i></a>
+                    </div>
+                    <h3><a href="<?php echo base_url('search/athi-river');?>">Athi River</a></h3>
+                </div>
+            </div>
+            <div class="col_one_fourth col_last">
+                <div class="feature-box fbox-small fbox-plain" data-animate="fadeIn" data-delay="600">
+                    <div class="fbox-icon">
+                        <a href="<?php echo base_url('search/naivasha');?>"><i class="icon-location"></i></a>
+                    </div>
+                    <h3><a href="<?php echo base_url('search/naivasha');?>">Naivasha</a></h3>
+                </div>
+            </div>
         </div>
-
-        <div class="nobottommargin">
-          <ul class="iconlist row">
-            <li class="col-md-3 col-xs-6">
-              <a class="city-links" href="<?php echo base_url('search/nairobi');?>" title="Jobs in Nairobi">
-                <i class="icon-location"></i> Nairobi
-              </a>
-            </li>
-            <li class="col-md-3 col-xs-6">
-              <a class="city-links" href="<?php echo base_url('search/nakuru');?>" title="Jobs in Nakuru">
-                <i class="icon-location"></i> Nakuru
-              </a>
-            </li>
-            <li class="col-md-3 col-xs-6">
-              <a class="city-links" href="<?php echo base_url('search/kitale');?>" title="Jobs in Kitale">
-                <i class="icon-location"></i> Kitale
-              </a>
-            </li>
-            <li class="col-md-3 col-xs-6">
-              <a class="city-links" href="<?php echo base_url('search/kisumu');?>" title="Jobs in Kisumu">
-                <i class="icon-location"></i> Kisumu
-              </a>
-            </li>
-            <li class="col-md-3 col-xs-6">
-              <a class="city-links" href="<?php echo base_url('search/machakos');?>" title="Jobs in machakos">
-                <i class="icon-location"></i> Machakos
-              </a>
-            </li>
-            <li class="col-md-3 col-xs-6">
-              <a class="city-links" href="<?php echo base_url('search/nairobi');?>" title="Jobs in Nairobi">
-                <i class="icon-location"></i> Nairobi
-              </a>
-            </li>
-            <li class="col-md-3 col-xs-6">
-              <a class="city-links" href="<?php echo base_url('search/nanyuki');?>" title="Jobs in Nanyuki">
-                <i class="icon-location"></i> Nanyuki
-              </a>
-            </li>
-            <li class="col-md-3 col-xs-6">
-              <a class="city-links" href="<?php echo base_url('search/nairobi');?>" title="Jobs in Nairobi">
-                <i class="icon-location"></i> Nairobi
-              </a>
-            </li>
-            <li class="col-md-3 col-xs-6">
-              <a class="city-links" href="<?php echo base_url('search/eldoret');?>" title="Jobs in Eldoret">
-                <i class="icon-location"></i> Eldoret
-              </a>
-            </li>
-            <li class="col-md-3 col-xs-6">
-              <a class="city-links" href="<?php echo base_url('search/mombasa');?>" title="Jobs in Mombasa">
-                <i class="icon-location"></i> Mombasa
-              </a>
-            </li>
-            <li class="col-md-3 col-xs-6">
-              <a class="city-links" href="<?php echo base_url('search/athi-river');?>" title="Jobs in Athi River">
-                <i class="icon-location"></i> Athi River
-              </a>
-            </li>
-            <li class="col-md-3 col-xs-6">
-              <a class="city-links" href="<?php echo base_url('search/naivasha');?>" title="Jobs in Naivasha">
-                <i class="icon-location"></i> Naivasha
-              </a>
-            </li>
-            <li class="col-md-3 col-xs-6">
-              <a class="city-links" href="<?php echo base_url('search/malindi');?>" title="Jobs in Malindi">
-                <i class="icon-location"></i> Malindi
-              </a>
-            </li>
-            <li class="col-md-3 col-xs-6">
-              <a class="city-links" href="<?php echo base_url('search/narok');?>" title="Jobs in Narok">
-                <i class="icon-location"></i> Narok
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="clear"></div>
-      <div class="divider divider-short divider-center"><i class="icon-circle"></i></div>
-      <!--./Cities-->
+    </div>
+    <!--./Cities-->
 
       <!--Featured Jobs-->
-      <div class="container clearfix">
+      <div class="container clearfix notopmargin" style="padding-top: 60px;padding-bottom: 60px;">
         <div id="section-specs" class="heading-block title-center page-section">
           <h2>Most Amazing Featured Jobs</h2>
           <span>Join us and Start posting Companies that do things differently and think outside the box.</span>
@@ -347,14 +451,74 @@
                     </div>
                   </div>
                 </div>
-              </div>
+
            <?php
               endforeach;
              endif;
             ?>
         </div>
-      </div>
+        </div>
       <!--./Featured Jobs End-->
+      <div class="section dark notopmargin nobottommargin" style="padding-top: 60px;">
+          <div class="container clearfix">
+              <div id="section-features" class="heading-block title-center page-section">
+                  <h2>Earn up to Ksh. 20000 per week completing tasks</h2>
+              </div>
+
+              <div class="col_one_third col_last">
+                  <div class="feature-box fbox-plain">
+                      <div class="fbox-icon" data-animate="bounceIn" data-delay="400">
+                          <a href="#"><img src="<?php echo base_url('public/images/features/performance.png'); ?>" alt="Powerful Performance"></a>
+                      </div>
+                      <h3>You're the boss</h3>
+                      <p>With over 1k of tasks posted every month on taskJet there are lots of opportunities to earn.
+                          Choose the tasks you’d like to complete for people that you're happy to work with.
+                      </p>
+                  </div>
+              </div>
+
+              <div class="col_one_third">
+                  <div class="feature-box fbox-plain">
+                      <div class="fbox-icon" data-animate="bounceIn" data-delay="800">
+                          <a href="#"><img src="<?php echo base_url('public/images/features/tick.png'); ?>" alt="Retina Graphics"></a>
+                      </div>
+                      <h3>Payments</h3>
+                      <p>With your task payment held secure with taskJet Pay, you're able to complete the task knowing payment will be made when you're done.</p>
+                  </div>
+              </div>
+
+              <div class="col_one_third col_last">
+                  <div class="feature-box fbox-plain">
+                      <div class="fbox-icon" data-animate="bounceIn" data-delay="1600">
+                          <a href="#"><img src="<?php echo base_url('public/images/features/support.png'); ?>" alt="Powerful Performance"></a>
+                      </div>
+                      <h3>Top rated insurance</h3>
+                      <p>taskJet Insurance provided by CGU covers the taskJet Worker for their liability to
+                          third parties for personal injury or property damage whilst performing certain task activities.*
+                      </p>
+                  </div>
+              </div>
+              <a href="#" class="button button-circle button-3d button-light button-white">Start Earning</a>
+          </div>
+      </div>
+      <div class="section footer-stick" style="padding-bottom: 60px;">
+
+          <div class="container clearfix">
+
+              <div id="section-buy" class="heading-block title-center nobottomborder page-section">
+                  <h2>Enough? Start Your Task!</h2>
+                  <span></span>
+              </div>
+
+              <div class="center">
+
+                  <a href="#" data-animate="tada" class="button button-3d button-teal button-xlarge nobottommargin"><i class="icon-star3"></i>Start your Tasks</a> - OR - <a href="#" data-scrollto="#section-pricing" class="button button-3d button-red button-xlarge nobottommargin"><i class="icon-user2"></i>Sign Up To Post Tasks</a>
+
+              </div>
+
+          </div>
+
+      </div>
   </div>
 </section>
 <!-- ./Content ============================================= -->

@@ -6,13 +6,13 @@
   </div>
   <div class="center bottommargin">
     <?php echo form_open_multipart('job_search/search',array('name' => 'jsearch', 'id' => 'jsearch'));?>
-      <div class="row">
-        <div class="col-md-5">
+      <div class="row search-container">
+        <div class="col-md-5 col-xs-12" style="padding-right: 2px;padding-left: 0px;margin: auto;">
           <div class="input-fld">
             <input type="text" required name="job_params" id="job_params" placeholder="Enter Job Title Or Skill" name="">
           </div>
         </div>
-        <div class="col-md-5">
+        <div class="col-md-5 col-xs-12" style="padding-left: 2px;padding-right: 0px;margin: auto;">
           <div class="input-fld">
             <select id="jcity" name="jcity">
               <option value="" selected>Select City</option>
@@ -23,7 +23,7 @@
           </div>
         </div>
 
-        <div class="col-md-2">
+        <div class="col-md-2 col-xs-12" style="padding-left: 2px;padding-right: 0px;margin: auto;">
           <div class="input-fld">
             <button type="submit" name="job_submit" id="job_submit">Search Job</button>
           </div>
