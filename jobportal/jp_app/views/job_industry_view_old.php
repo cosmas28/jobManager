@@ -1,21 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <?php $this->load->view('base/meta_tags'); ?>
+    <?php $this->load->view('common/meta_tags'); ?>
     <meta name="keywords" content="<?php echo $param;?> Jobs" />
     <meta name="description" content="<?php echo $param;?> Jobs ,Find best Jobs. Jobs at "<?php echo SITE_NAME;?> />
-    <?php $this->load->view('base/before_head_close'); ?>
+    <title><?php echo $title;?></title>
     <?php $this->load->view('common/before_head_close'); ?>
 </head>
-<body class="stretched">
-<?php $this->load->view('base/after_body_open'); ?>
-<!-- Document Wrapper ============================================= -->
-<div id="wrapper" class="clearfix">
+<body>
+<?php $this->load->view('common/after_body_open'); ?>
+<div class="siteWraper">
     <!--Header-->
-    <?php $this->load->view('base/page-header'); ?>
+    <?php $this->load->view('common/header'); ?>
     <!--/Header-->
     <!--Search Block-->
-    <div class="top-colSection" style="background: url(<?php echo base_url('public/images/search-bg.jpg');?>) no-repeat right;">
+    <div class="top-colSection">
         <div class="container">
             <div class="row">
                 <?php $this->load->view('common/home_search');?>
@@ -24,7 +23,6 @@
         </div>
     </div>
     <!--/Search Block-->
-
     <!--Latest Jobs Block-->
     <div class="container">
         <!--Left Col-->
@@ -84,14 +82,9 @@
         <?php $this->load->view('common/right_ads');?>
     </div>
     <!--/Latest Jobs Block-->
+    <?php $this->load->view('common/bottom_ads');?>
     <!--Footer-->
-    <?php $this->load->view('base/footer'); ?>
-    <?php $this->load->view('base/before_body_close'); ?>
-    <script type="text/javascript">
-        $(function() {
-            $( "#side-navigation" ).tabs({ show: { effect: "fade", duration: 400 } });
-        });
-    </script>
-</div>
+    <?php $this->load->view('common/footer'); ?>
+    <?php $this->load->view('common/before_body_close'); ?>
 </body>
 </html>

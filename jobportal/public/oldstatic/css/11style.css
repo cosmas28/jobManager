@@ -38,7 +38,7 @@ border:1px solid #0086c4;  border-radius: 3px; padding: 0 10px; color: #fff; fon
 
 
 
-.top-colSection input[type="text"]{padding:8px 35px 8px 10px; border:1px solid #004B97; font-size:14px; font-weight:bold; color:#777; border-radius:5px; width:98%; background:#fff url(../images/search-ico.png) no-repeat right; margin-top:15px;}
+.top-colSection input[type="text"]{padding:8px 35px 8px 10px; border:1px solid #004B97; font-size:14px; font-weight:bold; color:#777; border-radius:5px; width:98%; background:#C0C0C0 url(public/images/search-ico.jpg) no-repeat right; margin-top:15px;}
 .top-colSection p{font-size:14px; font-family: 'Open Sans', 'sans-serif'; margin-top:5px; color:#FFF;}
 
 .top-colSection .postjobbtn{background: #a5da00;

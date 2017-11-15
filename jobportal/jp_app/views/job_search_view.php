@@ -16,7 +16,7 @@
       <!-- job search section -->
       <div class="section parallax dark notopmargin noborder" style="padding: 80px 0; background-image: url(<?php echo base_url('public/images/webdesign/search-1.png');?>);center center no-repeat; background-size: 100% 400px;background-attachment: fixed;" data-stellar-background-ratio="0.4">
         <div class="container center clearfix">
-          <div class="row">
+          <div class="row search-container">
             <?php echo form_open_multipart('job_search',array('name' => 'jsearch', 'id' => 'jsearch'));?>
             <div class="col-md-10 col-xs-8">
               <div class="input-fld">

@@ -524,6 +524,7 @@
 <!-- ./Content ============================================= -->
 <!--Footer-->
 <?php $this->load->view('base/footer'); ?>
+</div>
 <?php $this->load->view('base/before_body_close'); ?>
 <script type="text/javascript">
   $(function() {

@@ -136,7 +136,7 @@ img {
 	color: #555;
 }
 .top-colSection {
-	background: url(../images/search-bg.jpg) repeat-x;
+	background: url(../../images/search-bg.jpg) repeat-x;
 	padding: 80px 0;
 }
 .top-colSection h1, .top-colSection h2, .top-colSection h3, .top-colSection h4 {
