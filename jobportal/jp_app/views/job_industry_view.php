@@ -86,12 +86,13 @@
     <!--/Latest Jobs Block-->
     <!--Footer-->
     <?php $this->load->view('base/footer'); ?>
-    <?php $this->load->view('base/before_body_close'); ?>
+</div>
+<?php $this->load->view('base/before_body_close'); ?>
+<?php $this->load->view('common/before_body_close'); ?>
     <script type="text/javascript">
         $(function() {
             $( "#side-navigation" ).tabs({ show: { effect: "fade", duration: 400 } });
         });
     </script>
-</div>
 </body>
 </html>
