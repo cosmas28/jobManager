@@ -73,16 +73,16 @@
                ?>
                     <div class="well">
                       <div class="row">
-                        <div class="col-md-2 col-xs-2">
+                        <div class="col-md-2 col-xs-2" style="padding: 0px;">
                           <div class="job-box">
                             <a href="<?php echo base_url('jobs/'.$row->job_slug);?>" class="thumbnail" title="<?php echo $row->job_title;?>"><img src="<?php echo base_url('public/uploads/employer/thumb/'.$company_logo);?>" alt="<?php echo base_url('company/'.$row->company_slug);?>" style="height: 80px; width: 100%; display: block;" /></a>
                           </div>
                         </div>
-                        <div class="col-md-6 col-xs-6">
+                        <div class="col-md-6 col-xs-6" style="padding: 0px;">
                           <div class="job-box">
-                            <div class="j-title"><a href="<?php echo base_url('jobs/'.$row->job_slug);?>" title="<?php echo $row->job_title;?>"><?php echo word_limiter(strip_tags(str_replace('-',' ',$row->job_title)),7);?></a>&nbsp;-&nbsp; <?php echo $row->pay;?></div>
-        										<div class="j-loc"><a href="<?php echo base_url('company/'.$row->company_slug);?>" title="Jobs in <?php echo $row->company_name;?>"><?php echo $row->company_name;?></a>&nbsp;-&nbsp; <?php echo $row->city;?></div>
-        										<div><?php echo date_formats($row->dated, 'M d, Y');?></div>
+                            <div id="jb-title"><a href="<?php echo base_url('jobs/'.$row->job_slug);?>" title="<?php echo $row->job_title;?>"><?php echo word_limiter(strip_tags(str_replace('-',' ',$row->job_title)),7);?></a>&nbsp;-&nbsp; <?php echo $row->pay;?></div>
+        										<div id="jb-city"><a href="<?php echo base_url('company/'.$row->company_slug);?>" title="Jobs in <?php echo $row->company_name;?>"><?php echo $row->company_name;?></a>&nbsp;-&nbsp; <?php echo $row->city;?></div>
+        										<div id="jb-date"><?php echo date_formats($row->dated, 'M d, Y');?></div>
                           </div>
                         </div>
                         <div class="col-md-4 col-xs-4">
