@@ -37,9 +37,7 @@
             <h4>Quick Links</h4>
 
             <ul>
-              <li><a href="<?php echo base_url('about-us.html');?>" title="About Us">About Us</a></li>
-              <li><a href="<?php echo base_url('how-to-get-job.html');?>" title="How to get Job">How to get Job</a></li>
-              <li><a href="<?php echo base_url('search-jobs');?>" title="New Job Openings">New Job Openings</a></li>
+              <li><a href="<?php echo base_url('about-us');?>" title="About Us">About Us</a></li>
               <li><a href="<?php echo base_url('search-resume');?>" title="New Job Openings">Resume Search</a></li>
               <li><a href="<?php echo base_url('contact-us');?>" title="Contact Us">Contact Us</a></li>
             </ul>
