@@ -8,6 +8,14 @@
 </head>
 <body class="stretched">
 <?php $this->load->view('base/after_body_open'); ?>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=214183958672924&version=v2.0";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
 <!-- Document Wrapper ============================================= -->
 <div id="wrapper" class="clearfix">
     <!--Header-->
@@ -174,7 +182,7 @@
             </div>
             <!--/Job Detail-->
 
-            <?php $this->load->view('common/right_ads');?>
+            <?php $this->load->view('base/right_ads');?>
         </div>
     </div>
 

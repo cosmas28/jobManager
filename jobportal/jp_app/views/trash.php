@@ -18,6 +18,9 @@
     <!--Footer-->
     <?php $this->load->view('base/footer'); ?>
 </div>
+<!-- Go To Top
+	============================================= -->
+<div id="gotoTop" class="icon-angle-up"></div>
 <?php $this->load->view('base/before_body_close'); ?>
 <?php $this->load->view('common/before_body_close'); ?>
 </body>
