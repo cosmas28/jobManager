@@ -14,7 +14,7 @@
       <?php $this->load->view('base/page-header'); ?>
       <!--/Header-->
       <!-- job search section -->
-      <div class="section parallax dark notopmargin noborder" style="padding: 80px 0; background-image: url(<?php echo base_url('public/images/webdesign/search-1.png');?>);center center no-repeat; background-size: 100% 400px;background-attachment: fixed;" data-stellar-background-ratio="0.4">
+      <section id="page-title" class="page-title-parallax page-title-dark" style="padding: 80px 0; background-image: url(<?php echo base_url('public/images/webdesign/home-testi-bg.jpg');?>);background-attachment: fixed;" data-stellar-background-ratio="0.3">
         <div class="container center clearfix">
           <div class="row search-container">
             <?php echo form_open_multipart('job_search',array('name' => 'jsearch', 'id' => 'jsearch'));?>
@@ -30,7 +30,7 @@
             </div>
             <?php echo form_close();?> </div>
           </div>
-        </div>
+        </section>
       <!-- ./job search section -->
 
       <!-- Content begins -->
