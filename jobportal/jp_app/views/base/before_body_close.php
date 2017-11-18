@@ -6,6 +6,7 @@
 
 <!-- Footer Scripts -->
 <script src="<?php echo base_url('public/newstatic/js/functions.js');?>" type="text/javascript"></script>
+<script src="<?php echo base_url('public/newstatic/js/jquery.gmap.js');?>" type="text/javascript"></script>
 <script type="text/javascript">
   $(function() {
     $( "#side-navigation" ).tabs({ show: { effect: "fade", duration: 400 } });
