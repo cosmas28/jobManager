@@ -18,9 +18,7 @@
 						<!-- Post content -->
 						<div class="postcontent nobottommargin clearfix">
 							<h2>Create New Account</h2>
-							<p>The Job Seeker sign up process takes no more than a couple of minutes after which, you can upload your CV,
-								resume plus covering letter and make it available to employers
-								looking for you. Why not join Job Portal today? it's free and you are only one step away from finding that ideal job!
+							<p>The Job Seeker sign up process takes no more than a couple of minutes. Why not join TASKjet today? it's free and you are only one step away from finding that ideal job!
 							</p>
 							<div class="well well-lg nobottommargin">
 								<?php echo form_open_multipart('jobseeker_signup',array('name' => 'seeker_form', 'class' => 'nobottommargin', 'id' => 'seeker_form', 'onSubmit' => 'return validate_form(this);'));?>

@@ -19,7 +19,7 @@
 						<div class="postcontent nobottommargin clearfix">
 							<h2>Create New Account</h2>
 							<p>
-								With Mtaani Task, the employer signup process only takes a couple of minutes and once your registration is complete, you have access to search the Job Seekers and post the Job openings in your company. The candidates who have opted to receive Job Alerts will receive your Job Opening in their Email. If you have an opening in your company, don't spend thousands of rupees advertising in newspaper or websites that charge you. Give us a chance to provide you top quality service for free!
+								With TASKjet, the employer signup process only takes a couple of minutes and once your registration is complete, you have access to search the Job Seekers and post the Job openings in your company/home. The candidates who have opted to receive Job Alerts will receive your Job Opening in their Email. Give us a chance to provide you top quality service for free!
 							</p>
 							<div class="well well-lg nobottommargin">
 								<?php echo form_open_multipart('employer_signup',array('name' => 'emp_form', 'id' => 'emp_form', 'onSubmit' => 'return validate_employer_form(this);'));?>
