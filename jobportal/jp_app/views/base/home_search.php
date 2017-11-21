@@ -35,11 +35,11 @@
   <div class="clear"></div>
 
   <div class="center bottommargin">
-    <a href="<?php echo base_url('login');?>" class="button button-3d button-teal button-xlarge nobottommargin">
-      <i class="icon-star3"></i>Start your tasks
+    <a href="<?php echo base_url('jobseeker-signup');?>" class="button button-3d button-teal button-xlarge nobottommargin">
+      <i class="icon-star3"></i>sign up your tasks
     </a>
        - OR -
-    <a href="<?php echo base_url('employer/post_new_job');?>" class="button button-3d button-red button-xlarge nobottommargin">
+    <a href="<?php echo base_url('employer-signup');?>" class="button button-3d button-red button-xlarge nobottommargin">
       <i class="icon-user2"></i>sign up to Post tasks
     </a>
   </div>
