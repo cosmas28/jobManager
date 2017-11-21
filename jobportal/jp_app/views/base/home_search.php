@@ -90,7 +90,7 @@
   </div>
 
   <div class="center bottommargin">
-    <a href="<?php echo base_url('login');?>" class="button button-3d button-red button-xlarge nobottommargin"><i class="icon-user2"></i>Upload Resume</a>
+    <a href="<?php echo base_url('jobseeker/cv_manager');?>" class="button button-3d button-red button-xlarge nobottommargin"><i class="icon-user2"></i>Update My Resume</a>
   </div>
 
 <?php endif;?>
