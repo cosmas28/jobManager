@@ -9,6 +9,14 @@ class Contact_Us extends CI_Controller {
 	
 	public function index()
 	{
+        //employee section
+        $total_job_seekers = $this->job_seekers_model->record_count('pp_job_seekers');
+
+        //employer section
+        $total_employers 	= $this->employers_model->record_count('pp_employers');
+
+        $data['total_job_seekers'] = $total_job_seekers;
+        $data['total_employers'] = $total_employers;
 		$data['ads_row'] = $this->ads;
 		$data['title'] = 'Contact Us';
 		$data['msg']='';

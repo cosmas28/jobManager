@@ -13,6 +13,13 @@ class Industry extends CI_Controller {
 			redirect(base_url());
 			exit;
 		}
+
+        //employee section
+        $total_job_seekers = $this->job_seekers_model->record_count('pp_job_seekers');
+
+        //employer section
+        $total_employers 	= $this->employers_model->record_count('pp_employers');
+
 		$industry_row = $this->industries_model->get_industries_by_slug($this->uri->segment(2));
 		$search_filter = $this->industry_search($industry_row->ID, $industry_row->slug);
 		$param = 'Search';
@@ -30,6 +37,8 @@ class Industry extends CI_Controller {
 		$searched_title = ($total_rows==0)?' Search ':'';
 		$current_records = ($this->uri->segment(3)) ? $this->uri->segment(3)*20 : 20;
 		$current_records = ($current_records>$total_rows)?$total_rows:$current_records;
+        $data['total_employers'] = $total_employers;
+        $data['total_job_seekers'] = $total_job_seekers;
 		$data['total_rows'] = $total_rows;
 		$data['page'] = $current_records;
 		$data['from_record'] = $search_filter['pagenation']['page']+1;

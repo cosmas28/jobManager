@@ -14,6 +14,15 @@ class Jobseeker_Signup extends CI_Controller {
 				redirect(base_url('jobseeker/dashboard'),'');
 				exit;
 		}
+
+        //employee section
+        $total_job_seekers = $this->job_seekers_model->record_count('pp_job_seekers');
+
+        //employer section
+        $total_employers 	= $this->employers_model->record_count('pp_employers');
+
+        $data['total_employers'] = $total_employers;
+        $data['total_job_seekers'] = $total_job_seekers;
 		$data['title'] = 'Create New Jobseeker Account at '.SITE_URL;
 		$data['msg']='';
 		#$data['result_cities'] = $this->cities_model->get_all_cities();

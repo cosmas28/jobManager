@@ -61,6 +61,15 @@ class Job_Details extends CI_Controller {
 			$data['result_resume'] = $this->resume_model->get_records_by_seeker_id($this->session->userdata('user_id'));
 		}
 		$tt = explode(', ',$row_posted_job->required_skills);
+
+        //employee section
+        $total_job_seekers = $this->job_seekers_model->record_count('pp_job_seekers');
+
+        //employer section
+        $total_employers 	= $this->employers_model->record_count('pp_employers');
+
+        $data['total_employers'] = $total_employers;
+        $data['total_job_seekers'] = $total_job_seekers;
 		$data['required_skills'] = explode(', ',$row_posted_job->required_skills);
 		$data['row_posted_job'] = $row_posted_job;
 		$data['company_logo'] = $company_logo;

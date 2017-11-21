@@ -41,7 +41,13 @@ class Candidate extends CI_Controller {
 		$result_qualification = $this->job_seekers_model->get_qualification_by_jobseeker_id($decrypted_id);
 		
 		//Resumes
-		$result_resume = $this->resume_model->get_records_by_seeker_id($decrypted_id, 5, 0);
+		//$result_resume = $this->resume_model->get_records_by_seeker_id($decrypted_id, 5, 0);
+
+        //employer section
+        $total_employers 	= $this->employers_model->record_count('pp_employers');
+
+        //employee section
+        $total_job_seekers = $this->job_seekers_model->record_count('pp_job_seekers');
 		
 		//Additional Info
 		$row_additional = $this->jobseeker_additional_info_model->get_record_by_userid($decrypted_id);
@@ -52,7 +58,9 @@ class Candidate extends CI_Controller {
 		$data['result_experience'] 		= $result_experience;
 		$data['result_qualification'] 	= $result_qualification;
 		$data['result_degrees'] 		= $this->qualification_model->get_all_records();
-		$data['result_resume'] 			= $result_resume;
+		//$data['result_resume'] 			= $result_resume;
+        $data['total_employers'] = $total_employers;
+        $data['total_job_seekers'] = $total_job_seekers;
 		$data['row_additional'] 		= $row_additional;
 		$data['latest_job_title']		= ($row_latest_exp)?$row_latest_exp->job_title:'';
 		$data['latest_job_company_name']= ($row_latest_exp)?$row_latest_exp->company_name:'';

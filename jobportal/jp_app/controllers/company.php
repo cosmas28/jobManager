@@ -22,6 +22,12 @@ class Company extends CI_Controller {
 			redirect(base_url(),'');
 			exit;	
 		}
+
+        //employee section
+        $total_job_seekers = $this->job_seekers_model->record_count('pp_job_seekers');
+
+        //employer section
+        $total_employers 	= $this->employers_model->record_count('pp_employers');
 		
 		//Jobs by company
 		$result_posted_jobs = $this->posted_jobs_model->get_active_posted_job_by_company_id($row_company->ID, 100, 0);
@@ -32,6 +38,8 @@ class Company extends CI_Controller {
 		$job_url = $row_company->company_slug.'-jobs-in-';
 		
 		$company_website = ($row_company->company_website!='')?validate_company_url($row_company->company_website):'';
+        $data['total_job_seekers'] = $total_job_seekers;
+        $data['total_employers'] = $total_employers;
 		$data['row_company'] 		= $row_company;
 		$data['total_opened_jobs'] 	= $total_opened_jobs;
 		$data['job_url']		 	= $job_url;

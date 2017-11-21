@@ -25,6 +25,15 @@ class Job_Listing extends CI_Controller {
 		//Pagination ends
 		
 		$obj_result = $this->posted_jobs_model->get_all_opened_jobs($config["per_page"], $page);
+
+        //employee section
+        $total_job_seekers = $this->job_seekers_model->record_count('pp_job_seekers');
+
+        //employer section
+        $total_employers 	= $this->employers_model->record_count('pp_employers');
+
+        $data['total_employers'] = $total_employers;
+        $data['total_job_seekers'] = $total_job_seekers;
 		$data['total_rows'] = $total_rows;
 		$data['page'] = $this->uri->segment(2);
 		$data['from_record'] = $page+1;

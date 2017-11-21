@@ -27,6 +27,15 @@ class Resume_Search extends CI_Controller {
 		
 		$current_records = ($this->uri->segment(3)) ? $this->uri->segment(3)*20 : 20;
 		$current_records = ($current_records>$total_rows)?$total_rows:$current_records;
+
+        //employee section
+        $total_job_seekers = $this->job_seekers_model->record_count('pp_job_seekers');
+
+        //employer section
+        $total_employers 	= $this->employers_model->record_count('pp_employers');
+
+        $data['total_employers'] = $total_employers;
+        $data['total_job_seekers'] = $total_job_seekers;
 		$data['total_rows'] = $total_rows;
 		$data['page'] = $current_records;
 		$data['from_record'] = 1;
