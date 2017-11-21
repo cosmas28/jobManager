@@ -10,8 +10,8 @@
       <div id="logo">
         <a href="<?php echo base_url();?>" class="standard-logo" data-dark-logo="<?php echo base_url('public/images/logo-dark.png');?>">
           <img src="<?php echo base_url('public/images/logo-dark.png');?>" alt="TaskJET Kenya"></a>
-        <a href="<?php echo base_url();?>" class="retina-logo" data-dark-logo="<?php echo base_url('public/images/logo-dark@2x.png');?>">
-          <img src="<?php echo base_url('public/images/logo-dark@2x.png');?>" alt="TaskJET Kenya"></a>
+        <a href="<?php echo base_url();?>" class="retina-logo" data-dark-logo="<?php echo base_url('public/images/logo.png');?>">
+          <img src="<?php echo base_url('public/images/logo.png');?>" alt="TaskJET Kenya"></a>
       </div><!-- #logo end -->
 
       <!-- Primary Navigation
