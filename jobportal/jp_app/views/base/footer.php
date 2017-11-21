@@ -77,12 +77,12 @@
           <div class="row">
 
             <div class="col-md-6 bottommargin-sm">
-              <div class="counter counter-small"><span data-from="50" data-to="1500" data-refresh-interval="80" data-speed="3000" data-comma="true"></span></div>
-              <h5 class="nobottommargin">Employees</h5>
+              <div class="counter counter-small"><span data-from="100" data-to="<?php echo $total_job_seekers;?>" data-refresh-interval="80" data-speed="3000" data-comma="true"></span></div>
+              <h5 class="nobottommargin">Job Seekers</h5>
             </div>
 
             <div class="col-md-6 bottommargin-sm">
-              <div class="counter counter-small"><span data-from="100" data-to="18465" data-refresh-interval="50" data-speed="2000" data-comma="true"></span></div>
+              <div class="counter counter-small"><span data-from="100" data-to="<?php echo $total_employers;?>" data-refresh-interval="50" data-speed="2000" data-comma="true"></span></div>
               <h5 class="nobottommargin">Employers</h5>
             </div>
 

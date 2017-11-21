@@ -20,6 +20,9 @@ class Home extends CI_Controller {
 		//Top employer section
 		$top_employer_result= $this->employers_model->get_all_active_top_employers(32, 0);
 		$total_employers 	= $this->employers_model->record_count('pp_employers');
+
+        //employee section
+        $total_job_seekers = $this->job_seekers_model->record_count('pp_job_seekers');
 		
 		//Feature jobs
 		$featured_job_result= $this->posted_jobs_model->get_active_featured_posted_job(10, 0);
@@ -31,6 +34,7 @@ class Home extends CI_Controller {
 		$data['latest_jobs_result'] = $latest_jobs_result;
 		$data['top_employer_result'] = $top_employer_result;
 		$data['total_employers'] = $total_employers;
+        $data['total_job_seekers'] = $total_job_seekers;
 		$data['featured_job_result'] = $featured_job_result;		
 		$this->load->view('home_view',$data);
 	}

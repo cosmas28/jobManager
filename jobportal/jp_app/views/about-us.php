@@ -66,19 +66,19 @@
                 <div class="container clearfix">
                     <div class="col_one_third nobottommargin center" data-animate="bounceIn">
                         <i class="i-plain i-xlarge divcenter icon-line2-layers"></i>
-                        <div class="counter counter-lined"><span data-from="100" data-to="846" data-refresh-interval="50" data-speed="2000"></span>K+</div>
+                        <div class="counter counter-lined"><span data-from="100" data-to="<?php echo $total_posted_jobs; ?>" data-refresh-interval="50" data-speed="2000"></span>K+</div>
                         <h5>Posted jobs</h5>
                     </div>
 
                     <div class="col_one_third nobottommargin center" data-animate="bounceIn">
                         <i class="i-plain i-xlarge divcenter icon-users"></i>
-                        <div class="counter counter-lined"><span data-from="100" data-to="846" data-refresh-interval="50" data-speed="2000"></span>K+</div>
+                        <div class="counter counter-lined"><span data-from="100" data-to="<?php echo $total_job_seekers; ?>" data-refresh-interval="50" data-speed="2000"></span>K+</div>
                         <h5>Job Seekers</h5>
                     </div>
 
                     <div class="col_one_third col_last nobottommargin center" data-animate="bounceIn">
                         <i class="i-plain i-xlarge divcenter icon-line2-users"></i>
-                        <div class="counter counter-lined"><span data-from="100" data-to="846" data-refresh-interval="50" data-speed="2000"></span>K+</div>
+                        <div class="counter counter-lined"><span data-from="100" data-to="<?php echo $total_employers; ?>" data-refresh-interval="50" data-speed="2000"></span>K+</div>
                         <h5>Employers</h5>
                     </div>
                 </div>
