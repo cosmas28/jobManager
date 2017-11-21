@@ -48,18 +48,18 @@
 
    if($this->session->userdata('is_employer')==TRUE): ?>
    <div class="center bottommargin">
-     <h1>Search Resume</h1>
+     <h1>Search Skills</h1>
      <?php echo form_open_multipart('resume_search/search',array('name' => 'rsearch', 'id' => 'rsearch'));?>
-      <div class="row">
-        <div class="col-md-10">
+      <div class="row search-container">
+        <div class="col-md-10 col-xs-12" style="padding-right: 2px;padding-left: 0px;margin: auto;">
           <div class="input-fld">
             <input type="text" placeholder="Search Resume with Skill or Job Title" name="resume_params" id="resume_params">
           </div>
         </div>
 
-        <div class="col-md-2">
+        <div class="col-md-2 col-xs-12" style="padding-left: 2px;padding-right: 0px;margin: auto;">
           <div class="input-fld">
-            <button type="submit" name="resume_submit" id="resume_submit">Search</button>
+            <button type="submit" name="resume_submit" id="resume_submit">Search Skills</button>
           </div>
         </div>
       </div>
@@ -73,16 +73,16 @@
   <div class="center bottommargin">
     <h1>Search Job</h1>
     <?php echo form_open_multipart('job_search/search',array('name' => 'jsearch', 'id' => 'jsearch'));?>
-      <div class="row">
-        <div class="col-md-10">
+      <div class="row search-container">
+        <div class="col-md-10 col-xs-12" style="padding-left: 2px;padding-right: 0px;margin: auto;">
           <div class="input-fld">
             <input type="text" name="job_params" id="job_params" placeholder="Job title or Skill" name="">
           </div>
         </div>
 
-        <div class="col-md-2">
+        <div class="col-md-2 col-xs-12" style="padding-left: 2px;padding-right: 0px;margin: auto;">
           <div class="input-fld">
-            <button type="submit" name="job_submit" id="job_submit">Find</button>
+            <button type="submit" name="job_submit" id="job_submit">Search Job</button>
           </div>
         </div>
       </div>
