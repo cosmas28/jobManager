@@ -17,7 +17,7 @@ class add_skills extends CI_Controller {
 		$available_skills = '';
 		$data['ads_row'] = $this->ads;
 		$result = $this->jobseeker_skills_model->get_records_by_seeker_id($this->session->userdata('user_id'));
-		$data['title'] = $this->session->userdata('first_name').' - Add Skills';
+		$data['title'] = 'Add Skills';
 		$data['result'] = $result;
 		$data['count_skills'] = count($result);
 		

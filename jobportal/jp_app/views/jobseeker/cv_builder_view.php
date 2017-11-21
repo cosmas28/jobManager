@@ -4,7 +4,7 @@
 <?php $this->load->view('common/meta_tags'); ?>
 <title><?php echo $title;?></title>
 <?php $this->load->view('common/before_head_close'); ?>
-<link href="<?php echo base_url('public/css/jquery-ui.css');?>" rel="stylesheet" type="text/css" />
+<link href="<?php echo base_url('public/oldstatic/css/jquery-ui.css');?>" rel="stylesheet" type="text/css" />
 </head>
 <body>
 <?php $this->load->view('common/after_body_open'); ?>

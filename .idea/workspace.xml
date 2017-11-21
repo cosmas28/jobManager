@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49580e72-5da7-4a25-b6bf-9b37eeb7b7b1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jobportal/jp_app/views/job_details_view.php" afterPath="$PROJECT_DIR$/jobportal/jp_app/views/job_details_view.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jobportal/jp_app/controllers/jobseeker/add_skills.php" afterPath="$PROJECT_DIR$/jobportal/jp_app/controllers/jobseeker/add_skills.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jobportal/jp_app/controllers/jobseeker/cv_manager.php" afterPath="$PROJECT_DIR$/jobportal/jp_app/controllers/jobseeker/cv_manager.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jobportal/jp_app/controllers/jobseeker_signup.php" afterPath="$PROJECT_DIR$/jobportal/jp_app/controllers/jobseeker_signup.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jobportal/jp_app/views/base/header.php" afterPath="$PROJECT_DIR$/jobportal/jp_app/views/base/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jobportal/jp_app/views/common/header.php" afterPath="$PROJECT_DIR$/jobportal/jp_app/views/common/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jobportal/jp_app/views/jobseeker/add_skills_view.php" afterPath="$PROJECT_DIR$/jobportal/jp_app/views/jobseeker/add_skills_view.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jobportal/jp_app/views/jobseeker/additional_info_view.php" afterPath="$PROJECT_DIR$/jobportal/jp_app/views/jobseeker/additional_info_view.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jobportal/jp_app/views/jobseeker/cv_builder_view.php" afterPath="$PROJECT_DIR$/jobportal/jp_app/views/jobseeker/cv_builder_view.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jobportal/jp_app/views/jobseeker/cv_manager_view.php" afterPath="$PROJECT_DIR$/jobportal/jp_app/views/jobseeker/cv_manager_view.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jobportal/jp_app/views/jobseeker/jobseeker_dashboard_view.php" afterPath="$PROJECT_DIR$/jobportal/jp_app/views/jobseeker/jobseeker_dashboard_view.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jobportal/jp_app/views/jobseeker/my_account_view.php" afterPath="$PROJECT_DIR$/jobportal/jp_app/views/jobseeker/my_account_view.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,11 +25,53 @@
     <splitter split-orientation="vertical" split-proportion="0.5117493">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="about-us.php" pinned="false" current-in-tab="true">
+          <file leaf-file-name="about-us.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/jobportal/jp_app/views/about-us.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="187">
                   <caret line="80" column="118" lean-forward="false" selection-start-line="80" selection-start-column="118" selection-end-line="80" selection-end-column="118" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="add_skills_view.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/jobportal/jp_app/views/jobseeker/add_skills_view.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="122">
+                  <caret line="95" column="50" lean-forward="false" selection-start-line="95" selection-start-column="50" selection-end-line="95" selection-end-column="50" />
+                  <folding>
+                    <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="cv_manager_view.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/jobportal/jp_app/views/jobseeker/cv_manager_view.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-4046">
+                  <caret line="6" column="47" lean-forward="false" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="50" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="my_account_view.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/jobportal/jp_app/views/jobseeker/my_account_view.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="2499">
+                  <caret line="147" column="51" lean-forward="false" selection-start-line="147" selection-start-column="51" selection-end-line="147" selection-end-column="51" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/jobportal/jp_app/views/common/header.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="238">
+                  <caret line="26" column="149" lean-forward="false" selection-start-line="26" selection-start-column="149" selection-end-line="26" selection-end-column="149" />
                   <folding />
                 </state>
               </provider>
@@ -49,11 +101,41 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="jobseeker_signup.php" pinned="false" current-in-tab="true">
+          <file leaf-file-name="jobseeker_signup.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/jobportal/jp_app/controllers/jobseeker_signup.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="425">
-                  <caret line="34" column="52" lean-forward="false" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
+                <state relative-caret-position="153">
+                  <caret line="70" column="21" lean-forward="false" selection-start-line="70" selection-start-column="21" selection-end-line="70" selection-end-column="21" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="add_skills.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/jobportal/jp_app/controllers/jobseeker/add_skills.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="527">
+                  <caret line="33" column="20" lean-forward="false" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="cv_manager.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/jobportal/jp_app/controllers/jobseeker/cv_manager.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="306">
+                  <caret line="48" column="10" lean-forward="false" selection-start-line="48" selection-start-column="10" selection-end-line="48" selection-end-column="10" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/jobportal/jp_app/views/base/header.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="561">
+                  <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -99,13 +181,23 @@
         <option value="$PROJECT_DIR$/jobportal/jp_app/views/job_search_view.php" />
         <option value="D:/Sir Jay Suits/index.html" />
         <option value="$PROJECT_DIR$/templates/index.html" />
-        <option value="$PROJECT_DIR$/jobportal/jp_app/views/base/header.php" />
         <option value="$PROJECT_DIR$/jobportal/jp_app/views/base/page-header.php" />
         <option value="$PROJECT_DIR$/jobportal/jp_app/controllers/home.php" />
         <option value="$PROJECT_DIR$/jobportal/jp_app/views/base/footer.php" />
         <option value="$PROJECT_DIR$/jobportal/jp_app/controllers/about_us.php" />
         <option value="$PROJECT_DIR$/jobportal/jp_app/views/about-us.php" />
         <option value="$PROJECT_DIR$/jobportal/jp_app/views/job_details_view.php" />
+        <option value="$PROJECT_DIR$/jobportal/jp_app/controllers/jobseeker_signup.php" />
+        <option value="$PROJECT_DIR$/jobportal/jp_app/controllers/jobseeker/add_skills.php" />
+        <option value="$PROJECT_DIR$/jobportal/jp_app/views/jobseeker/add_skills_view.php" />
+        <option value="$PROJECT_DIR$/jobportal/jp_app/controllers/jobseeker/cv_manager.php" />
+        <option value="$PROJECT_DIR$/jobportal/jp_app/views/jobseeker/cv_manager_view.php" />
+        <option value="$PROJECT_DIR$/jobportal/jp_app/views/jobseeker/additional_info_view.php" />
+        <option value="$PROJECT_DIR$/jobportal/jp_app/views/jobseeker/cv_builder_view.php" />
+        <option value="$PROJECT_DIR$/jobportal/jp_app/views/jobseeker/jobseeker_dashboard_view.php" />
+        <option value="$PROJECT_DIR$/jobportal/jp_app/views/jobseeker/my_account_view.php" />
+        <option value="$PROJECT_DIR$/jobportal/jp_app/views/base/header.php" />
+        <option value="$PROJECT_DIR$/jobportal/jp_app/views/common/header.php" />
       </list>
     </option>
   </component>
@@ -171,6 +263,14 @@
               <item name="jp_app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="jobManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jobManager" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="jobportal" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="jp_app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="base" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -214,12 +314,12 @@
       <workItem from="1511023463405" duration="12075000" />
       <workItem from="1511011160818" duration="8848000" />
       <workItem from="1511087119813" duration="2151000" />
-      <workItem from="1511256782291" duration="5542000" />
+      <workItem from="1511256782291" duration="10260000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65698000" />
+    <option name="totallyTimeSpent" value="70416000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -255,93 +355,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jobportal/jp_app/views/common/home_search.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jobportal/jp_app/views/common/before_head_close.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jobportal/jp_app/views/company_view_old.php" />
-    <entry file="file://$PROJECT_DIR$/jobportal/jp_app/views/company_view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/php/jobportal-31/codecanyon-15330095-job-portal/jobportal/jp_app/views/login_view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="60" column="70" lean-forward="false" selection-start-line="60" selection-start-column="63" selection-end-line="60" selection-end-column="95" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jobportal/jp_app/views/forgot_old.php" />
-    <entry file="file://$PROJECT_DIR$/templates/search-job.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="217" column="33" lean-forward="false" selection-start-line="217" selection-start-column="33" selection-end-line="217" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Canvas_[v4.4]/HTML/contact-3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2160">
-          <caret line="1164" column="58" lean-forward="false" selection-start-line="1164" selection-start-column="4" selection-end-line="1164" selection-end-column="130" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="109" column="59" lean-forward="false" selection-start-line="109" selection-start-column="32" selection-end-line="109" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jobportal/jp_app/views/base/right_ads.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="4" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jobportal/jp_app/views/base/before_body_close.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="68" lean-forward="false" selection-start-line="8" selection-start-column="68" selection-end-line="8" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jobportal/jp_app/views/forgot_view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="64" column="61" lean-forward="false" selection-start-line="64" selection-start-column="61" selection-end-line="64" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jobportal/jp_app/views/contact.php" />
-    <entry file="file://$PROJECT_DIR$/templates/about-us.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jobportal/jp_app/config/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="59" column="30" lean-forward="false" selection-start-line="59" selection-start-column="30" selection-end-line="59" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jobportal/jp_app/controllers/contact_us.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-246">
@@ -463,14 +476,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jobportal/jp_app/views/base/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="118" lean-forward="false" selection-start-line="13" selection-start-column="118" selection-end-line="13" selection-end-column="118" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jobportal/jp_app/views/job_search_view.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -564,29 +569,29 @@
         <state relative-caret-position="119">
           <caret line="46" column="103" lean-forward="false" selection-start-line="46" selection-start-column="103" selection-end-line="46" selection-end-column="103" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#2;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#4;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#4;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#4;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#4;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#4;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#4;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#4;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#4;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#4;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#4;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#4;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#4;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#4;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#4;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#4;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#4;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#5;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#6;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#2;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#4;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#4;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#4;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#4;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#4;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#4;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#4;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#4;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#4;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#4;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#4;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#4;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#4;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#4;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#4;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#4;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#5;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#6;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -611,6 +616,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/jobportal/jp_app/config/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="59" column="30" lean-forward="false" selection-start-line="59" selection-start-column="30" selection-end-line="59" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jobportal/jp_app/controllers/employer_signup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2142">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/jobportal/jp_app/views/about-us.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -621,8 +642,122 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jobportal/jp_app/controllers/jobseeker_signup.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="34" column="52" lean-forward="false" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
+        <state relative-caret-position="153">
+          <caret line="70" column="21" lean-forward="false" selection-start-line="70" selection-start-column="21" selection-end-line="70" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jobportal/jp_app/controllers/jobseeker/add_skills.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="33" column="20" lean-forward="false" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jobportal/jp_app/views/jobseeker/add_skills_view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="95" column="50" lean-forward="false" selection-start-line="95" selection-start-column="50" selection-end-line="95" selection-end-column="50" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jobportal/jp_app/views/jobseeker/cv_builder_view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="50" lean-forward="false" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jobportal/jp_app/views/jobseeker/change_password_view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-697">
+          <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jobportal/jp_app/views/jobseeker/additional_info_view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="54" column="51" lean-forward="false" selection-start-line="54" selection-start-column="51" selection-end-line="54" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jobportal/jp_app/views/jobseeker/jobseeker_dashboard_view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="252" column="51" lean-forward="false" selection-start-line="252" selection-start-column="51" selection-end-line="252" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jobportal/jp_app/views/jobseeker/matching_jobs_view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1168">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jobportal/jp_app/views/jobseeker/cv_manager_view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4046">
+          <caret line="6" column="47" lean-forward="false" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jobportal/jp_app/views/jobseeker/my_jobs_view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-966">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jobportal/jp_app/views/jobseeker/my_success_story_view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-612">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jobportal/jp_app/views/jobseeker/my_account_view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2499">
+          <caret line="147" column="51" lean-forward="false" selection-start-line="147" selection-start-column="51" selection-end-line="147" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jobportal/jp_app/controllers/jobseeker/cv_manager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="48" column="10" lean-forward="false" selection-start-line="48" selection-start-column="10" selection-end-line="48" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jobportal/jp_app/views/base/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jobportal/jp_app/views/common/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="26" column="149" lean-forward="false" selection-start-line="26" selection-start-column="149" selection-end-line="26" selection-end-column="149" />
           <folding />
         </state>
       </provider>

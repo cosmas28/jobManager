@@ -52,6 +52,6 @@
 <!--Footer-->
 <?php $this->load->view('common/footer'); ?>
 <?php $this->load->view('common/before_body_close'); ?>
-<script src="<?php echo base_url('public/js/validate_jobseeker.js');?>" type="text/javascript"></script>
+<script src="<?php echo base_url('public/oldstatic/js/validate_jobseeker.js');?>" type="text/javascript"></script>
 </body>
 </html>

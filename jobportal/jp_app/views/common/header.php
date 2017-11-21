@@ -3,7 +3,7 @@
         <div class="col-md-2">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-            <a class="navbar-brand" href="<?php echo base_url();?>" title="USA jobs website"><img src="<?php echo base_url('public/images/logo.png');?>" alt="USA jobs website" /></a> </div>
+            <a class="navbar-brand" href="<?php echo base_url();?>" title="TASKjet"><img src="<?php echo base_url('public/images/logo-1.jpg');?>" alt="TASKjet" /></a> </div>
         </div>
         <div class="col-md-<?php echo ($this->session->userdata('is_user_login')==TRUE)?'6':'6';?>">
           <div class="navbar-collapse collapse">
@@ -14,22 +14,19 @@
 			?>
               <li <?php echo active_link('');?>><a href="<?php echo base_url();?>"><i class="fa fa-home" aria-hidden="true"></i></a></li>
               <li <?php echo active_link('employer');?>><a href="<?php echo base_url('employer/dashboard');?>" title="My Dashboard">My Dashboard</a> </li>
-              <li <?php echo active_link('search-resume');?>><a href="<?php echo base_url('search-resume');?>" title="Search Resume">Search Resume</a></li>
+              <li <?php echo active_link('search-resume');?>><a href="<?php echo base_url('search-resume');?>" title="Search Resume">Search Jobseeker</a></li>
               <li <?php echo active_link('contact-us');?>><a href="<?php echo base_url('contact-us');?>" title="Contact Us">Contact Us</a></li>
-              <li <?php echo active_link('indeed_jobs');?>><a href="<?php echo base_url('indeed_jobs');?>" title="Indeed Jobs">Indeed Jobs</a></li>
               <?php elseif($this->session->userdata('is_job_seeker')==TRUE):?>
               <li <?php echo active_link('');?>><a href="<?php echo base_url();?>"><i class="fa fa-home" aria-hidden="true"></i></a></li>
               <li <?php echo active_link('jobseeker');?>><a href="<?php echo base_url('jobseeker/dashboard');?>" title="My Dashboard">My Dashboard</a> </li>
               <li <?php echo active_link('search-jobs');?>><a href="<?php echo base_url('search-jobs');?>" title="Search Jobs">Search Jobs</a></li>
               <li <?php echo active_link('contact-us');?>><a href="<?php echo base_url('contact-us');?>" title="Contact Us">Contact Us</a></li>
-              <li <?php echo active_link('indeed_jobs');?>><a href="<?php echo base_url('indeed_jobs');?>" title="Indeed Jobs">Indeed Jobs</a></li>
               <?php else:?>
               <li <?php echo active_link('');?>><a href="<?php echo base_url();?>"><i class="fa fa-home" aria-hidden="true"></i></a></li>
               <li <?php echo active_link('search-jobs');?>><a href="<?php echo base_url('search-jobs');?>" title="Search Government jobs in USA">Search a Job</a> </li>
-              <li <?php echo active_link('search-resume');?>><a href="<?php echo base_url('search-resume');?>" title="Search Resume">Search Resume</a></li>
+              <li <?php echo active_link('search-resume');?>><a href="<?php echo base_url('search-resume');?>" title="Search Resume">Search Jobseeker</a></li>
               <li <?php echo active_link('about-us.html');?>><a href="<?php echo base_url('about-us.html');?>" title="USA jobs free website">About Us</a></li>
               <li <?php echo active_link('contact-us');?>><a href="<?php echo base_url('contact-us');?>" title="Contact Us">Contact Us</a></li>
-              <li <?php echo active_link('indeed_jobs');?>><a href="<?php echo base_url('indeed_jobs');?>" title="Indeed Jobs">Indeed Jobs</a></li>
               <?php endif;?>
             </ul>
           </div>

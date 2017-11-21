@@ -23,7 +23,7 @@ class Cv_Manager extends CI_Controller {
 		$result_qualification = $this->job_seekers_model->get_qualification_by_jobseeker_id($this->session->userdata('user_id'));
 		
 		//Resumes
-		$result_resume = $this->resume_model->get_records_by_seeker_id($this->session->userdata('user_id'), 5, 0);
+		//$result_resume = $this->resume_model->get_records_by_seeker_id($this->session->userdata('user_id'), 5, 0);
 		
 		//Additional Info
 		$row_additional = $this->jobseeker_additional_info_model->get_record_by_userid($this->session->userdata('user_id'));
@@ -46,7 +46,7 @@ class Cv_Manager extends CI_Controller {
 		$data['result_cities'] 			= $this->cities_model->get_all_cities();
 		$data['result_countries'] 		= $this->countries_model->get_all_countries();
 		$data['result_degrees'] 		= $this->qualification_model->get_all_records();
-		$data['result_resume'] 			= $result_resume;
+		//$data['result_resume'] 			= $result_resume;
 		$data['row_additional'] 		= $row_additional;
 		$data['photo'] 					= $photo;
 		$this->load->view('jobseeker/cv_manager_view',$data);
