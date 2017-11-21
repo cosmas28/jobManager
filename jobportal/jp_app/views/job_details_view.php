@@ -198,12 +198,82 @@
 
 						    <!--/Job Detail-->
 
-						    <?php $this->load->view('common/right_ads');?>
+						    <?php $this->load->view('base/right_ads');?>
 						  </div>
 						</div>
 					</div>
 				</div>
 				<!-- ./Content begins -->
+                <div class="modal fade" id="japply">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                <h4 class="modal-title">Apply For This Job</h4>
+                            </div>
+                            <div class="modal-body">
+                                <div id="emsg"></div>
+                                <div class="box-body">
+                                    <div class="form-group">
+                                        <label>Monthly Expected Salary:</label>
+                                        <select name="expected_salary" id="expected_salary" class="form-control">
+                                            <?php
+                                            foreach($result_salaries as $row_salaries):
+                                                $selected = (set_value('expected_salary')==$row_salaries->val)?'selected="selected"':'';
+                                                ?>
+                                                <option value="<?php echo $row_salaries->val;?>" <?php echo $selected;?>><?php echo $row_salaries->val;?></option>
+                                            <?php endforeach;?>
+                                        </select>
+                                        <?php echo form_error('expected_salary'); ?> </div>
+                                    <div class="form-group">
+                                        <label>Cover Letter</label>
+                                        <textarea id="cover_letter" name="cover_letter"  class="form-control" placeholder=""><?php echo set_value('cover_letter');?></textarea>
+                                        <?php echo form_error('cover_letter'); ?> </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <input type="hidden" id="jid" name="jid" value="<?php echo $row_posted_job->ID;?>"/>
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                <button type="button" name="submitter" id="submitter" class="btn btn-primary">Apply</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Scam-->
+                <div class="modal fade" id="scam">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                <h4 class="modal-title">Report this Employer</h4>
+                            </div>
+                            <div class="modal-body">
+                                <div id="scam_emsg"></div>
+                                <div class="box-body">
+                                    <div class="form-group">
+                                        <label>Company Name: <span style="font-weight:normal;"><?php echo $row_posted_job->company_name;?></span></label>
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Job: <span style="font-weight:normal;"><?php echo $row_posted_job->job_title;?></span></label>
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Reason</label>
+                                        <textarea id="reason" name="reason"  class="form-control" placeholder=""><?php echo set_value('reason');?></textarea>
+                                        <?php echo form_error('reason'); ?> </div>
+                                    <div class="form-group">
+                                        <label class="input-group-addon">Please enter: <span id="ccode"><?php echo $cpt_code;?></span> in the text box below:</label>
+                                        <input type="text" class="form-control" name="captcha" id="captcha" value="" maxlength="10" autocomplete="off"/>
+                                        <?php echo form_error('captcha'); ?> </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <input type="hidden" id="scjid" name="scjid" value="<?php echo $row_posted_job->ID;?>"/>
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                <button type="button" name="scam_submit" id="scam_submit" class="btn btn-primary">Report this Employer</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
 				<!--Footer-->
 	      <?php $this->load->view('base/footer'); ?>
