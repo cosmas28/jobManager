@@ -19,7 +19,7 @@
               <div class="tabs divcenter nobottommargin clearfix" id="tab-login-register" style="max-width: 500px;">
                 <div class="panel panel-default nobottommargin">
                   <div class="panel-body" style="padding: 40px;">
-                    <form class="nobottommargin" action="index.html" id="login-form" method="post">
+                    <form class="nobottommargin" action="" id="login-form" method="post">
                       <h3>Login to your Account</h3>
                       <?php if($msg): ?>
                         <div class="alert alert-danger"><?php echo $msg;?></div>
@@ -36,9 +36,9 @@
                         <input type="password" id="pass" name="pass" value="<?php echo set_value('pass'); ?>" placeholder="Password" class="form-control" />
                       </div>
                       <div class="col_full">
-    										<input id="checkbox-10" class="checkbox-style" name="checkbox-10" type="checkbox" checked>
-    										<label for="checkbox-10" class="checkbox-style-3-label">Remember My Password</label>
-    									</div>
+                          <input id="checkbox-10" class="checkbox-style" name="checkbox-10" type="checkbox" checked>
+                          <label for="checkbox-10" class="checkbox-style-3-label">Remember My Password</label>
+                      </div>
 
                       <div class="col_full nobottommargin">
                         <button type="submit" class="button button-3d button-black nomargin" id="login-form-submit" name="login-form-submit" value="login">Login</button>
@@ -47,11 +47,11 @@
                     </form>
                     <div class="line line-sm"></div>
                     <div class="center">
-    									<h4 style="margin-bottom: 15px;">Or create a new account:</h4>
-    									<a href="<?php echo $signup_link;?>" class="button button-rounded si-facebook si-colored">Job Seeker</a>
-    									<span class="hidden-xs">or</span>
-    									<a href="<?php echo base_url('employer-signup');?>" class="button button-rounded si-twitter si-colored">Employer</a>
-    								</div>
+                        <h4 style="margin-bottom: 15px;">Or create a new account:</h4>
+                        <a href="<?php echo $signup_link;?>" class="button button-rounded si-facebook si-colored">Job Seeker</a>
+                        <span class="hidden-xs">or</span>
+                        <a href="<?php echo base_url('employer-signup');?>" class="button button-rounded si-twitter si-colored">Employer</a>
+                    </div>
                   </div>
                 </div>
               </div>
