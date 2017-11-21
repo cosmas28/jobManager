@@ -512,7 +512,9 @@
 
               <div class="center">
 
-                  <a href="#" data-animate="tada" class="button button-3d button-teal button-xlarge nobottommargin"><i class="icon-star3"></i>Start your Tasks</a> - OR - <a href="#" data-scrollto="#section-pricing" class="button button-3d button-red button-xlarge nobottommargin"><i class="icon-user2"></i>Sign Up To Post Tasks</a>
+                  <a href="<?php echo base_url('jobseeker-signup');?>" data-animate="tada" class="button button-3d button-teal button-xlarge nobottommargin"><i class="icon-star3"></i>Start your Tasks</a>
+                  - OR -
+                  <a href="<?php echo base_url('employer-signup');?>" data-scrollto="#section-pricing" class="button button-3d button-red button-xlarge nobottommargin"><i class="icon-user2"></i>Sign Up To Post Tasks</a>
 
               </div>
 
