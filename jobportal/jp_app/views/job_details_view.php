@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<?php $company_loc = urlencode($row_posted_job->company_location.', '.$row_posted_job->emp_city.', '.$row_posted_job->emp_country.', ('.$row_posted_job->company_name.')'); ?>
 <html>
 	<head>
 		<?php $this->load->view('base/meta_tags'); ?>
@@ -214,21 +215,16 @@
                             <div class="modal-body">
                                 <div id="emsg"></div>
                                 <div class="box-body">
-                                    <div class="form-group">
-                                        <label>Monthly Expected Salary:</label>
-                                        <select name="expected_salary" id="expected_salary" class="form-control">
-                                            <?php
-                                            foreach($result_salaries as $row_salaries):
-                                                $selected = (set_value('expected_salary')==$row_salaries->val)?'selected="selected"':'';
-                                                ?>
-                                                <option value="<?php echo $row_salaries->val;?>" <?php echo $selected;?>><?php echo $row_salaries->val;?></option>
-                                            <?php endforeach;?>
-                                        </select>
-                                        <?php echo form_error('expected_salary'); ?> </div>
+                                    <div class="form-group ">
+                                        <label>Salary Offer(Ksh.)</label>
+                                        <input type="text" class="form-control" name="expected_salary" id="expected_salary" value="<?php echo $row_salaries->val;?>" maxlength="5" />
+                                        <?php echo form_error('expected_salary'); ?>
+                                    </div>
                                     <div class="form-group">
                                         <label>Cover Letter</label>
                                         <textarea id="cover_letter" name="cover_letter"  class="form-control" placeholder=""><?php echo set_value('cover_letter');?></textarea>
-                                        <?php echo form_error('cover_letter'); ?> </div>
+                                        <?php echo form_error('cover_letter'); ?>
+                                    </div>
                                 </div>
                             </div>
                             <div class="modal-footer">
@@ -283,11 +279,8 @@
 			============================================= -->
 			<div id="gotoTop" class="icon-angle-up"></div>
 			<?php $this->load->view('base/before_body_close'); ?>
-			<script type="text/javascript">
-				$(function() {
-					$( "#side-navigation" ).tabs({ show: { effect: "fade", duration: 400 } });
-				});
-			</script>
+          <?php $this->load->view('common/before_body_close'); ?>
+
 
 			<?php if($this->session->userdata('is_job_seeker')==TRUE):?>
 			<script type="text/javascript">
