@@ -58,7 +58,7 @@ class Job_Details extends CI_Controller {
 			$is_already_applied = $this->applied_jobs_model->get_applied_job_by_seeker_and_job_id($this->session->userdata('user_id'), $job_id);
 			$is_already_applied = ($is_already_applied>0)?'yes':'no';
 			$data['result_salaries'] = $this->salaries_model->get_all_records();
-			$data['result_resume'] = $this->resume_model->get_records_by_seeker_id($this->session->userdata('user_id'));
+			#$data['result_resume'] = $this->resume_model->get_records_by_seeker_id($this->session->userdata('user_id'));
 		}
 		$tt = explode(', ',$row_posted_job->required_skills);
 
