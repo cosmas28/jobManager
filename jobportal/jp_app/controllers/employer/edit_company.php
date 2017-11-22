@@ -21,14 +21,11 @@ class Edit_Company extends CI_Controller {
 		$this->form_validation->set_rules('full_name', 'Your name', 'trim|required|strip_all_tags');
 		$this->form_validation->set_rules('country', 'Country', 'trim|required|strip_all_tags');
 		$this->form_validation->set_rules('city', 'City', 'trim|required|strip_all_tags');
-		$this->form_validation->set_rules('mobile_phone', 'Mobile', 'trim|required|strip_all_tags');
 		$this->form_validation->set_rules('company_name', 'Company name', 'trim|required|strip_all_tags');
 		$this->form_validation->set_rules('industry_id', 'Industry', 'trim|required|strip_all_tags');
 		$this->form_validation->set_rules('company_location', 'Company address', 'trim|required|strip_all_tags');
 		$this->form_validation->set_rules('company_description', 'Company Description', 'trim|required|strip_all_tags|secure');
 		$this->form_validation->set_rules('company_phone', 'Company Phone', 'trim|required|strip_all_tags');
-		$this->form_validation->set_rules('no_of_employees', 'No of Employees', 'trim|required|strip_all_tags');
-		$this->form_validation->set_rules('company_website', 'Company Website', 'trim|required|strip_all_tags');
 		$this->form_validation->set_error_delimiters('<div class="errowbox"><div class="erormsg">', '</div></div>');
 		$data['full_name'] = (set_value('full_name'))?set_value('full_name'):$row->first_name;
 		$data['industry_id'] = (set_value('industry_id'))?set_value('industry_id'):$row->industry_ID;
@@ -38,10 +35,6 @@ class Edit_Company extends CI_Controller {
 		$data['country'] = (set_value('country'))?set_value('country'):$row->country;
 		$data['city'] = (set_value('city'))?set_value('city'):$row->city;
 		$data['company_phone'] = (set_value('company_phone'))?set_value('company_phone'):$row->company_phone;
-		
-		$data['mobile_phone'] = (set_value('mobile_phone'))?set_value('mobile_phone'):$row->mobile_phone;
-		$data['company_website'] = (set_value('company_website'))?set_value('company_website'):$row->company_website;
-		$data['no_of_employees'] = (set_value('no_of_employees'))?set_value('no_of_employees'):$row->no_of_employees;
 		$data['company_description'] = (set_value('company_description'))?set_value('company_description'):$row->company_description;
 		
 		$ip_address = ($row->ip_address=='')?$this->input->ip_address():$row->ip_address;
@@ -57,7 +50,7 @@ class Edit_Company extends CI_Controller {
 		
 		$employer_array = array(
 								'first_name' => $this->input->post('full_name'),
-								'mobile_phone' => $this->input->post('mobile_phone'),
+								'mobile_phone' => $this->input->post('company_phone'),
 								'country' => $this->input->post('country'),
 								'city' => $this->input->post('city'),
 								'ip_address' => $ip_address,
@@ -69,8 +62,6 @@ class Edit_Company extends CI_Controller {
 								'industry_ID' => $this->input->post('industry_id'),
 								'company_phone' => $this->input->post('company_phone'),
 								'company_location' => $this->input->post('company_location'),
-								'company_website' => $this->input->post('company_website'),
-								'no_of_employees' => $this->input->post('no_of_employees'),
 								'company_description' => $this->input->post('company_description'),
 								'company_slug' => $company_slug,
 								'ownership_type' => $this->input->post('ownership_type')
