@@ -43,7 +43,7 @@
 			 $c_folder = ($this->session->userdata('is_employer')==TRUE)?'employer':'jobseeker';
 		   ?>
           <a href="<?php echo base_url('user/logout');?>"  class="regBtn">Logout</a>
-          <div class="pull-right loginusertxt">Welcome, <a href="<?php echo base_url($c_folder.'/dashboard');?>" class="username"><?php echo $this->session->userdata('first_name');?>!</a></div>
+          <div class="pull-right loginusertxt">Welcome, <a href="<?php echo base_url($c_folder.'/dashboard');?>" class="username"><?php echo $this->session->userdata('full_name');?>!</a></div>
           <?php endif;?>
           <div class="clear"></div>
           </div>
