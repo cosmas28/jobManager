@@ -22,7 +22,8 @@
 							</p>
 							<div class="well well-lg nobottommargin">
 								<?php echo form_open_multipart('jobseeker_signup',array('name' => 'seeker_form', 'class' => 'nobottommargin', 'id' => 'seeker_form', 'onSubmit' => 'return validate_form(this);'));?>
-								orm-username">Email<span>*</span></label>
+								<div class="col_full <?php echo (form_error('email'))?'has-error':'';?>">
+                                    <label for="login-form-username">Email<span>*</span></label>
 									<input type="email" id="email" name="email" placeholder="Email" class="form-control" value="<?php echo set_value('email'); ?>" maxlength="150" />
 									<?php echo form_error('email'); ?>
 								</div>
@@ -31,8 +32,7 @@
 									<input type="Password" id="pass" name="pass" autocomplete="off" placeholder="Password" class="form-control" value="<?php echo set_value('pass'); ?>" maxlength="100" />
 									<?php echo form_error('pass'); ?>
 								</div>
-                                <div class="col_full <?php echo (form_error('email'))?'has-error':'';?>">
-                                    <label for="login-f						<div class="col_full <?php echo (form_error('confirm_pass'))?'has-error':'';?>">
+                                <div class="col_full <?php echo (form_error('confirm_pass'))?'has-error':'';?>">
 									<label for="login-form-username">Confirm Password<span>*</span></label>
 									<input type="password" id="confirm_pass" name="confirm_pass" class="form-control" placeholder="Confirm Password" value="<?php echo set_value('confirm_pass'); ?>" maxlength="100" />
 									<?php echo form_error('confirm_pass'); ?>
