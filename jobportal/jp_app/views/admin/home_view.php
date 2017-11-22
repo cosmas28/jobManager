@@ -9,7 +9,7 @@
 <body>
 <div class="loginwrap">
   <div class="loginfrm">
-    <img src="<?php echo base_url('public/images/admin_images/jobportal-logo.png');?>" class="mainlogologin">
+    <img src="<?php echo base_url('public/images/admin_images/logo-admin.png');?>" class="mainlogologin">
      <div class="err"><?php echo $msg;?></div>
     <form method="post" action="">
       <div class="formwrp">
