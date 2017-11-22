@@ -8,7 +8,7 @@
       
       <li><a href="<?php echo base_url('employer/job_applications');?>" class="innerfetbox <?php echo is_active_like($this->uri->segment(2),'job_applications');?>"><i class="fa fa-users"></i> <span>View Candidates</span></a></li>
       
-      <li><a href="<?php echo base_url('search-resume');?>" class="innerfetbox"><i class="fa fa-search"></i> <span>Resume Search</span></a></li>
+      <li><a href="<?php echo base_url('search-resume');?>" class="innerfetbox"><i class="fa fa-search"></i> <span>Search Jobseeker</span></a></li>
       
       <li><a href="<?php echo base_url('employer/change_password');?>" class="innerfetbox" <?php echo is_active_like($this->uri->segment(2),'change_password');?>><i class="fa fa-lock"></i> <span>Password Change</span></a></li>      
       <div class="clear"></div>
