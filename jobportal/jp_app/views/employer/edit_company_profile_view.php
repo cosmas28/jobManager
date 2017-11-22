@@ -90,34 +90,13 @@
                 <div class="demo">
                   
                 
-                <input name="city" type="text" class="form-control" id="city_text" style="max-width:165px;" value="<?php echo $city; ?>" maxlength="50"></div>
+                <input name="city" type="text" placeholder="City" class="form-control" id="city_text" style="max-width:165px;" value="<?php echo $city; ?>" maxlength="50"></div>
                 <?php echo form_error('city'); ?> </div>
               <div class="input-group <?php echo (form_error('company_phone'))?'has-error':'';?>">
-                <label class="input-group-addon">Landline Phone <span>*</span></label>
+                <label class="input-group-addon">Company Phone <span>*</span></label>
                 <input type="phone" class="form-control" name="company_phone" id="company_phone" value="<?php echo $company_phone; ?>" maxlength="20" />
-                <?php echo form_error('company_phone'); ?> </div>
-              <div class="input-group <?php echo (form_error('mobile_phone'))?'has-error':'';?>">
-                <label class="input-group-addon">Cell Phone <span>*</span></label>
-                <input name="mobile_phone" type="text" class="custom-control" id="mobile_phone" value="<?php echo $mobile_phone; ?>" maxlength="15" />
-                <?php echo form_error('mobile_phone'); ?> </div>
-              <div class="input-group <?php echo (form_error('company_website'))?'has-error':'';?>">
-                <label class="input-group-addon">Company Website <span>*</span></label>
-                <input name="company_website" type="text" class="form-control" id="company_website" value="<?php echo $company_website; ?>" maxlength="155">
-                <?php echo form_error('company_website'); ?> </div>
-              <div class="input-group <?php echo (form_error('no_of_employees'))?'has-error':'';?>">
-                <label class="input-group-addon">No. of Employees <span>*</span></label>
-                <select name="no_of_employees" id="no_of_employees" class="form-control">
-                  <option value="1-10" <?php echo ($no_of_employees=='1-10')?'selected':''; ?>>1-10</option>
-                  <option value="11-50" <?php echo ($no_of_employees=='11-50')?'selected':''; ?>>11-50</option>
-                  <option value="51-100" <?php echo ($no_of_employees=='51-100')?'selected':''; ?>>51-100</option>
-                  <option value="101-300" <?php echo ($no_of_employees=='101-300')?'selected':''; ?>>101-300</option>
-                  <option value="301-600" <?php echo ($no_of_employees=='301-600')?'selected':''; ?>>301-600</option>
-                  <option value="601-1000" <?php echo ($no_of_employees=='601-1000')?'selected':''; ?>>601-1000</option>
-                  <option value="1001-1500" <?php echo ($no_of_employees=='1001-1500')?'selected':''; ?>>1001-1500</option>
-                  <option value="1501-2000" <?php echo ($no_of_employees=='1501-2000')?'selected':''; ?>>1501-2000</option>
-                  <option value="More than 2000" <?php echo ($no_of_employees=='More than 2000')?'selected':''; ?>>More than 2000</option>
-                </select>
-                <?php echo form_error('no_of_employees'); ?> </div>
+                <?php echo form_error('company_phone'); ?>
+              </div>
               <div class="input-group <?php echo (form_error('company_description'))?'has-error':'';?>">
                 <label class="input-group-addon">Company Description <span>*</span></label>
                 <textarea class="form-control" name="company_description" id="company_description" rows="8" cols="30" ><?php echo $company_description; ?></textarea>
@@ -154,9 +133,9 @@
 <?php $this->load->view('common/bottom_ads');?>
 <!--Footer-->
 <?php $this->load->view('common/footer'); ?>
-<script src="<?php echo base_url('public/js/bad_words.js'); ?>"></script>
+<script src="<?php echo base_url('public/oldstatic/js/bad_words.js'); ?>"></script>
 <?php $this->load->view('common/before_body_close'); ?>
-<script src="<?php echo base_url('public/js/validate_employer.js');?>" type="text/javascript"></script> 
+<script src="<?php echo base_url('public/oldstatic/js/validate_employer.js');?>" type="text/javascript"></script>
 <script src="<?php echo base_url('public/autocomplete/jquery-1.4.4.js'); ?>"></script> 
 <script src="<?php echo base_url('public/autocomplete/jquery.ui.core.js'); ?>"></script> 
 <script src="<?php echo base_url('public/autocomplete/jquery.ui.widget.js'); ?>"></script> 
