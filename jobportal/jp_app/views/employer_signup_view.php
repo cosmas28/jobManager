@@ -28,6 +28,11 @@
 									<input type="email" id="email" placeholder="Email" name="email" value="<?php echo set_value('email'); ?>" class="form-control" maxlength="150" />
 									<?php echo form_error('email'); ?>
 								</div>
+                                <div class="col_full <?php echo (form_error('company_name'))?'has-error':'';?>">
+                                    <label for="login-form-username">Company Name/Your Name<span>*</span></label>
+                                    <input type="text" id="company_name" placeholder="Your name Or Company name" name="company_name" value="<?php echo set_value('company_name'); ?>" class="form-control" maxlength="150" />
+                                    <?php echo form_error('email'); ?>
+                                </div>
 								<div class="col_full <?php echo (form_error('pass_code'))?'has-error':'';?>">
 									<label for="login-form-username">Password <span>*</span></label>
 									<input type="password" id="pass" name="pass" placeholder="Password" value="<?php echo set_value('pass_code'); ?>" class="form-control"  maxlength="100" />
