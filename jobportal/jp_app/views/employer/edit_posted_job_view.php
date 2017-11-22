@@ -3,7 +3,7 @@
 <head>
 <?php $this->load->view('common/meta_tags'); ?>
 <title><?php echo $title;?></title>
-<link href="<?php echo base_url('public/css/jquery-ui.css');?>" rel="stylesheet" type="text/css" />
+<link href="<?php echo base_url('public/oldstatic/css/jquery-ui.css');?>" rel="stylesheet" type="text/css" />
 <?php $this->load->view('common/before_head_close'); ?>
 <link rel="stylesheet" href="http://jquery-ui.googlecode.com/svn/tags/1.8.7/themes/base/jquery.ui.all.css">
 <link rel="stylesheet" href="<?php echo base_url('public/autocomplete/demo.css'); ?>">
@@ -219,11 +219,11 @@
 <?php $this->load->view('common/bottom_ads');?>
 <!--Footer-->
 <?php $this->load->view('common/footer'); ?>
-<script src="<?php echo base_url('public/js/bad_words.js'); ?>"></script>
+<script src="<?php echo base_url('public/oldstatic/js/bad_words.js'); ?>"></script>
 <?php $this->load->view('common/before_body_close'); ?>
-<script src="<?php echo base_url('public/js/jquery-ui.js'); ?>" type="text/javascript"></script> 
-<script src="<?php echo base_url('public/js/admin/plugins/ckeditor/ckeditor.js'); ?>" type="text/javascript"></script> 
-<script src="<?php echo base_url('public/js/validate_employer.js');?>" type="text/javascript"></script> 
+<script src="<?php echo base_url('public/oldstatic/js/jquery-ui.js'); ?>" type="text/javascript"></script>
+<script src="<?php echo base_url('public/oldstatic/js/admin/plugins/ckeditor/ckeditor.js'); ?>" type="text/javascript"></script>
+<script src="<?php echo base_url('public/oldstatic/js/validate_employer.js');?>" type="text/javascript"></script>
 <script type="text/javascript">
   $(function() {
    var editor = CKEDITOR.replace( 'editor1', {

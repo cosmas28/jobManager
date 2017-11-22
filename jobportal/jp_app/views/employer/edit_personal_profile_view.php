@@ -3,7 +3,7 @@
 <head>
 <?php $this->load->view('common/meta_tags'); ?>
 <title><?php echo $title;?></title>
-<link href="<?php echo base_url('public/css/jquery-ui.css');?>" rel="stylesheet" type="text/css" />
+<link href="<?php echo base_url('public/oldstatic/css/jquery-ui.css');?>" rel="stylesheet" type="text/css" />
 <?php $this->load->view('common/before_head_close'); ?>
 <link rel="stylesheet" href="http://jquery-ui.googlecode.com/svn/tags/1.8.7/themes/base/jquery.ui.all.css">
 <link rel="stylesheet" href="<?php echo base_url('public/autocomplete/demo.css'); ?>">
@@ -119,7 +119,7 @@
 <!--Footer-->
 <?php $this->load->view('common/footer'); ?>
 <?php $this->load->view('common/before_body_close'); ?>
-<script src="<?php echo base_url('public/js/validate_employer.js');?>" type="text/javascript"></script> 
+<script src="<?php echo base_url('public/oldstatic/js/validate_employer.js');?>" type="text/javascript"></script>
 <script src="<?php echo base_url('public/autocomplete/jquery-1.4.4.js'); ?>"></script> 
 <script src="<?php echo base_url('public/autocomplete/jquery.ui.core.js'); ?>"></script> 
 <script src="<?php echo base_url('public/autocomplete/jquery.ui.widget.js'); ?>"></script> 

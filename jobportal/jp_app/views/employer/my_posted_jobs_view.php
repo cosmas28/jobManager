@@ -89,6 +89,6 @@
 <!-- Profile Popups -->
 <?php $this->load->view('employer/common/employers_popup_forms'); ?>
 <?php $this->load->view('common/before_body_close'); ?>
-<script src="<?php echo base_url('public/js/validate_employer.js');?>" type="text/javascript"></script>
+<script src="<?php echo base_url('public/oldstatic/js/validate_employer.js');?>" type="text/javascript"></script>
 </body>
 </html>
