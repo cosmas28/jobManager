@@ -118,7 +118,7 @@ class Employers_Model extends CI_Model {
     }
 	
 	public function get_employer_by_id($id) {
-        $this->db->select('pp_employers.*, pp_companies.ID AS CID,pp_companies.company_name,pp_companies.company_email,pp_companies.ownership_type,pp_companies.company_ceo,pp_companies.industry_ID,pp_companies.ownership_type,pp_companies.company_description,pp_companies.company_location,pp_companies.no_of_offices,pp_companies.company_website,pp_companies.no_of_employees, pp_companies.established_in, pp_companies.company_logo, pp_companies.company_folder, pp_companies.company_type, pp_companies.company_fax, pp_companies.company_slug, pp_companies.company_phone, pp_job_industries.industry_name');
+        $this->db->select('pp_employers.*, pp_companies.ID AS CID,pp_companies.company_name,pp_companies.company_email,pp_companies.ownership_type,pp_companies.industry_ID,pp_companies.ownership_type,pp_companies.company_description,pp_companies.company_location, pp_companies.company_logo, pp_companies.company_slug, pp_companies.company_phone, pp_job_industries.industry_name');
         $this->db->from('pp_employers');
 		$this->db->join('pp_companies', 'pp_employers.company_ID = pp_companies.ID', 'inner');
 		$this->db->join('pp_job_industries', 'pp_companies.industry_ID = pp_job_industries.ID', 'left');
