@@ -17,7 +17,7 @@ class Post_New_Job extends CI_Controller {
 		$data['result_cities'] = $this->cities_model->get_all_cities();
 		$data['result_countries'] = $this->countries_model->get_all_countries();
 		$data['result_industries'] = $this->industries_model->get_all_industries();
-		$data['result_salaries'] = $this->salaries_model->get_all_records();
+		//$data['result_salaries'] = $this->salaries_model->get_all_records();
 		$data['result_qualification'] = $this->qualification_model->get_all_records();
 		foreach($this->skill_model->get_all_skills() as $skill_row){
 			$available_skills.='"'.$skill_row->skill_name.'", ';
