@@ -3,7 +3,7 @@
 <head>
 <?php $this->load->view('common/meta_tags'); ?>
 <title><?php echo $title;?></title>
-<link href="<?php echo base_url('public/css/jquery-ui.css');?>" rel="stylesheet" type="text/css" />
+<link href="<?php echo base_url('public/oldstatic/css/jquery-ui.css');?>" rel="stylesheet" type="text/css" />
 <?php $this->load->view('common/before_head_close'); ?>
 <link rel="stylesheet" href="http://jquery-ui.googlecode.com/svn/tags/1.8.7/themes/base/jquery.ui.all.css">
 <link rel="stylesheet" href="<?php echo base_url('public/autocomplete/demo.css'); ?>">
@@ -55,8 +55,9 @@
             <?php echo form_error('job_title'); ?> </div>
           <div class="input-group <?php echo (form_error('vacancies'))?'has-error':'';?>">
             <label class="input-group-addon">No.of Vacancies <span>*</span></label>
-            <input type="text" class="form-control" name="vacancies" id="vacancies" value="1" maxlength="3" />
-            <?php echo form_error('vacancies'); ?> </div>
+            <input type="text" class="form-control" name="vacancies" id="vacancies" value="1" maxlength="2" />
+            <?php echo form_error('vacancies'); ?>
+          </div>
           <div class="input-group <?php echo (form_error('experience'))?'has-error':'';?>">
             <label class="input-group-addon">Experience Required <span>*</span></label>
             <select name="experience" id="experience" class="form-control">
@@ -78,22 +79,18 @@
               <option value="Part Time" <?php echo (set_value('job_mode')=='Part Time')?'selected="selected"':'';?>>Part Time</option>
               <option value="Home Based" <?php echo (set_value('job_mode')=='Home Based')?'selected="selected"':'';?>>Home Based</option>
             </select>
-            <?php echo form_error('job_mode'); ?> </div>
+            <?php echo form_error('job_mode'); ?>
+          </div>
           <div class="input-group <?php echo (form_error('pay'))?'has-error':'';?>">
-            <label class="input-group-addon">Salary Offer(Pk Rs.) <span>*</span></label>
-            <select name="pay" id="pay" class="form-control">
-              <?php
-					foreach($result_salaries as $row_salaries):
-						$selected = (set_value('pay')==$row_salaries->val)?'selected="selected"':'';
-				?>
-              <option value="<?php echo $row_salaries->val;?>" <?php echo $selected;?>><?php echo $row_salaries->text;?></option>
-              <?php endforeach;?>
-            </select>(<em>in thousands</em>)
-            <?php echo form_error('pay'); ?> </div>
+             <label class="input-group-addon">Salary Offer(Ksh.) <span>*</span></label>
+             <input type="text" class="form-control" name="pay" id="pay" value="" maxlength="5" />
+             <?php echo form_error('pay'); ?>
+          </div>
           <div class="input-group <?php echo (form_error('last_date'))?'has-error':'';?>">
             <label class="input-group-addon">Apply Before <span>*</span></label>
             <input name="last_date" type="text" readonly class="form-control" id="last_date" placeholder="Apply Before" value="<?php echo (set_value('last_date'))?set_value('last_date'):$last_date_dummy; ?>" maxlength="40">
-            <?php echo form_error('last_date'); ?> </div>
+            <?php echo form_error('last_date'); ?>
+          </div>
           
           <div class="input-group <?php echo (form_error('country'))?'has-error':'';?>">
             <label class="input-group-addon">Location <span>*</span></label>
@@ -198,11 +195,11 @@
 <?php $this->load->view('common/bottom_ads');?>
 <!--Footer-->
 <?php $this->load->view('common/footer'); ?>
-<script src="<?php echo base_url('public/js/bad_words.js'); ?>"></script>
+<script src="<?php echo base_url('public/oldstatic/js/bad_words.js'); ?>"></script>
 <?php $this->load->view('common/before_body_close'); ?>
-<script src="<?php echo base_url('public/js/jquery-ui.js'); ?>" type="text/javascript"></script> 
-<script src="<?php echo base_url('public/js/admin/plugins/ckeditor/ckeditor.js'); ?>" type="text/javascript"></script> 
-<script src="<?php echo base_url('public/js/validate_employer.js');?>" type="text/javascript"></script> 
+<script src="<?php echo base_url('public/oldstatic/js/jquery-ui.js'); ?>" type="text/javascript"></script>
+<script src="<?php echo base_url('public/oldstatic/js/admin/plugins/ckeditor/ckeditor.js'); ?>" type="text/javascript"></script>
+<script src="<?php echo base_url('public/oldstatic/js/validate_employer.js');?>" type="text/javascript"></script>
 <script type="text/javascript">			
   $(function() {
    var editor = CKEDITOR.replace( 'editor1', {
