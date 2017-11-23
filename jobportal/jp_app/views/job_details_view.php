@@ -216,7 +216,7 @@
                                 <div id="emsg"></div>
                                 <div class="box-body">
                                     <div class="form-group ">
-                                        <label>Salary Offer(Ksh.)</label>
+                                        <label>Expected Salary(Ksh.)</label>
                                         <input type="text" class="form-control" name="expected_salary" id="expected_salary" value="<?php echo $row_salaries->val;?>" maxlength="5" />
                                         <?php echo form_error('expected_salary'); ?>
                                     </div>
