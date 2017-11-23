@@ -1296,9 +1296,9 @@ delimiter ;;
 CREATE  PROCEDURE `get_opened_jobs_home_page`(IN from_limit INT(5), to_limit INT(5))
 BEGIN
 set @prev := 0, @rownum := '';
-SELECT ID, job_title, job_slug, employer_ID, company_ID, job_description, city, dated, last_date, is_featured, sts, company_name, company_logo, company_slug, industry_name
+SELECT ID, job_title, pay, job_slug, employer_ID, company_ID, job_description, city, dated, last_date, is_featured, sts, company_name, company_logo, company_slug, industry_name
 FROM (
-  SELECT ID, job_title, job_slug, employer_ID, company_ID, job_description, city, dated, last_date, is_featured, sts, company_name, company_logo, company_slug, industry_name,
+  SELECT ID, job_title, pay, job_slug, employer_ID, company_ID, job_description, city, dated, last_date, is_featured, sts, company_name, company_logo, company_slug, industry_name,
          IF( @prev <> company_ID,
              @rownum := 1,
              @rownum := @rownum+1
@@ -1306,7 +1306,7 @@ FROM (
          @prev := company_ID,
          @rownum
 			FROM (
-					SELECT pj.ID, pj.job_title, pj.job_slug, pj.employer_ID, pj.company_ID, pj.job_description, pj.city, pj.dated, pj.last_date, pj.is_featured, pj.sts, company_name, company_logo, company_slug, industry_name
+					SELECT pj.ID, pj.job_title, pj.pay, pj.job_slug, pj.employer_ID, pj.company_ID, pj.job_description, pj.city, pj.dated, pj.last_date, pj.is_featured, pj.sts, company_name, company_logo, company_slug, industry_name
 					FROM pp_post_jobs AS pj
 					INNER JOIN pp_companies AS pc ON pj.company_ID=pc.ID
 					INNER JOIN pp_job_industries AS ji ON pj.industry_ID=ji.ID

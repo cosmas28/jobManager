@@ -150,7 +150,7 @@
         </div>
       </div>
     <!-- ./Job categories ============================================= -->
-      <div class="section dark notopmargin nobottommargin" style="padding-top: 60px;padding-bottom: 150px;">
+      <div class="section dark notopmargin nobottommargin" style="padding-top: 60px;padding-bottom: 50px;">
           <div class="container clearfix">
               <div id="section-features" class="heading-block title-center page-section">
                   <h2>How TaskJet works</h2>
@@ -191,7 +191,7 @@
           </div>
       </div>
     <!-- top employers ============================================= -->
-      <div class="section notopmargin nobottommargin" style="padding-top: 100px;">
+      <div class="section notopmargin " style="padding-top: 100px;padding-bottom: 100px;">
         <div class="container clearfix">
           <div id="section-testimonials" class="heading-block title-center page-section">
             <h2>Top Employers</h2>
@@ -216,7 +216,7 @@
         </div>
 
       <!-- ./top employers ============================================= -->
-    <div class="section dark notopmargin" style="padding-top: 60px;">
+    <div class="section dark notopmargin" style="">
         <div class="container clearfix">
             <div id="section-features" class="heading-block title-center page-section">
                 <h2>Top Rated Insurance</h2>
@@ -295,6 +295,7 @@
                           <div class="job-box">
                             <div class="jb-title"><a href="<?php echo base_url('jobs/'.$row_latest_jobs->job_slug);?>" title="<?php echo $row_latest_jobs->job_title;?>"><?php echo $job_title;?></a>&nbsp;-&nbsp; <?php echo $row_latest_jobs->pay;?></div>
                               <div class="jb-city"><a href="<?php echo base_url('company/'.$row_latest_jobs->company_slug);?>" title="Jobs in <?php echo $row_latest_jobs->company_name;?>"><?php echo $row_latest_jobs->company_name;?></a>&nbsp;-&nbsp; <?php echo $row_latest_jobs->city;?></div>
+                              <div class="jb-city">Ksh. <?php echo $row_latest_jobs->pay;?></div>
                           </div>
                         </div>
                         <div class="col-md-4 col-xs-4" style="padding: 0px;margin: 0px;">
