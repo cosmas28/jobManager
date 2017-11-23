@@ -13,7 +13,8 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://localhost/jobManager/jobportal';
+//$config['base_url']	= 'http://localhost/jobManager/jobportal';
+$config['base_url']	= 'http://c08c4da9.ngrok.io/jobManager/jobportal';
 /*
 |--------------------------------------------------------------------------
 | Index File

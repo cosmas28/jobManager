@@ -66,32 +66,32 @@
                 <div class="container clearfix">
                     <div class="col_one_third nobottommargin center" data-animate="bounceIn">
                         <i class="i-plain i-xlarge divcenter icon-line2-layers"></i>
-                        <div class="counter counter-lined"><span data-from="100" data-to="<?php echo $total_posted_jobs; ?>" data-refresh-interval="50" data-speed="2000"></span>K+</div>
+                        <div class="counter counter-lined"><span data-from="100" data-to="<?php echo $total_posted_jobs; ?>" data-refresh-interval="50" data-speed="2000"></span></div>
                         <h5>Posted jobs</h5>
                     </div>
 
                     <div class="col_one_third nobottommargin center" data-animate="bounceIn">
                         <i class="i-plain i-xlarge divcenter icon-users"></i>
-                        <div class="counter counter-lined"><span data-from="100" data-to="<?php echo $total_job_seekers; ?>" data-refresh-interval="50" data-speed="2000"></span>K+</div>
+                        <div class="counter counter-lined"><span data-from="100" data-to="<?php echo $total_job_seekers; ?>" data-refresh-interval="50" data-speed="2000"></span></div>
                         <h5>Job Seekers</h5>
                     </div>
 
                     <div class="col_one_third col_last nobottommargin center" data-animate="bounceIn">
                         <i class="i-plain i-xlarge divcenter icon-line2-users"></i>
-                        <div class="counter counter-lined"><span data-from="100" data-to="<?php echo $total_employers; ?>" data-refresh-interval="50" data-speed="2000"></span>K+</div>
+                        <div class="counter counter-lined"><span data-from="100" data-to="<?php echo $total_employers; ?>" data-refresh-interval="50" data-speed="2000"></span></div>
                         <h5>Employers</h5>
                     </div>
                 </div>
             </div>
 
-            <div class="row common-height clearfix">
+            <!--<div class="row common-height clearfix">
                 <div class="col-sm-5 col-padding" style="background: url('images/team/3.jpg') center center no-repeat; background-size: cover;"></div>
 
                 <div class="col-sm-7 col-padding">
                     <div>
                         <div class="heading-block">
                             <span class="before-heading color">CEO &amp; Co-Founder</span>
-                            <h3>John Doe</h3>
+                            <h3>Tony</h3>
                         </div>
 
                         <div class="row clearfix">
@@ -116,31 +116,31 @@
                             <div class="col-md-6">
                                 <ul class="skills">
                                     <li data-percent="80">
-                                        <span>Wordpress</span>
+                                        <span>Marketing</span>
                                         <div class="progress">
                                             <div class="progress-percent"><div class="counter counter-inherit counter-instant"><span data-from="0" data-to="80" data-refresh-interval="30" data-speed="1100"></span>%</div></div>
                                         </div>
                                     </li>
                                     <li data-percent="60">
-                                        <span>CSS3</span>
+                                        <span>Communication</span>
                                         <div class="progress">
                                             <div class="progress-percent"><div class="counter counter-inherit counter-instant"><span data-from="0" data-to="60" data-refresh-interval="30" data-speed="1100"></span>%</div></div>
                                         </div>
                                     </li>
                                     <li data-percent="90">
-                                        <span>HTML5</span>
+                                        <span>Leadership</span>
                                         <div class="progress">
                                             <div class="progress-percent"><div class="counter counter-inherit counter-instant"><span data-from="0" data-to="90" data-refresh-interval="30" data-speed="1100"></span>%</div></div>
                                         </div>
                                     </li>
                                     <li data-percent="70">
-                                        <span>jQuery</span>
+                                        <span>Teamwork</span>
                                         <div class="progress">
                                             <div class="progress-percent"><div class="counter counter-inherit counter-instant"><span data-from="0" data-to="70" data-refresh-interval="30" data-speed="1100"></span>%</div></div>
                                         </div>
                                     </li>
                                     <li data-percent="85">
-                                        <span>Ruby</span>
+                                        <span>Creativity</span>
                                         <div class="progress">
                                             <div class="progress-percent"><div class="counter counter-inherit counter-instant"><span data-from="0" data-to="85" data-refresh-interval="30" data-speed="1100"></span>%</div></div>
                                         </div>
@@ -151,9 +151,9 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>-->
 
-            <div class="section black nobottommargin " style="padding-top: 60px;padding-right: 100px;padding-left: 100px;">
+            <!--<div class="section black nobottommargin " style="padding-top: 60px;padding-right: 100px;padding-left: 100px;">
 
                 <div class="clear"></div>
 
@@ -168,7 +168,7 @@
                     <li><a href=""><img src="<?php echo base_url('public/images/webdesign/clients/4.png'); ?>" alt="Clients"></a></li>
                     <li><a href=""><img src="<?php echo base_url('public/images/webdesign/clients/5.png'); ?>" alt="Clients"></a></li>
                 </ul>
-            </div>
+            </div>-->
 
             <div class="container clearfix" style="padding-top: 100px;">
                 <div class="clear"></div>
@@ -227,7 +227,7 @@
 
             </div>
 
-            <div class="section footer-stick">
+            <!--<div class="section footer-stick">
 
                 <h4 class="uppercase center">What <span>Clients</span> Say?</h4>
 
@@ -274,7 +274,7 @@
                     </div>
                 </div>
 
-            </div>
+            </div>-->
         </div>
     </section>
     <!-- ./Content

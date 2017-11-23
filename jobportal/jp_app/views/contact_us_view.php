@@ -117,7 +117,7 @@
                                     Ngumba Estate, Nairobi<br>
                                     San Francisco, CA 94107<br>
                                 </address>
-                                <abbr title="Phone Number"><strong>Phone:</strong></abbr> (91) 8547 632521<br>
+                                <abbr title="Phone Number"><strong>Phone:</strong></abbr> +254731604325<br>
                                 <abbr title="Email Address"><strong>Email:</strong></abbr> info@taskjet.com
                             </div><!-- Contact Info End -->
                         </div>

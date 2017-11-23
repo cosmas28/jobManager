@@ -12,7 +12,7 @@
 
           <div class="widget clearfix">
 
-            <img src="<?php echo base_url('public/images/footer-widget-logo.png');?>" alt="" class="footer-logo">
+            <img src="<?php echo base_url('public/images/logo-dark.png');?>" alt="" class="footer-logo">
 
             <p>We believe in <strong>Simple</strong>, <strong>Creative</strong> &amp; <strong>Flexible</strong> Design Standards.</p>
 
@@ -21,9 +21,9 @@
                 <strong>Headquarters:</strong><br>
                 Ngumba Estate, Nairobi<br>
               </address>
-              <abbr title="Phone Number"><strong>Phone:</strong></abbr> (91) 8547 632521<br>
+              <abbr title="Phone Number"><strong>Phone:</strong></abbr> +254731604325<br>
 
-              <abbr title="Email Address"><strong>Email:</strong></abbr> info@mtasker.com
+              <abbr title="Email Address"><strong>Email:</strong></abbr> info@taskjet.com
             </div>
 
           </div>
