@@ -80,9 +80,9 @@
                         </div>
                         <div class="col-md-6 col-xs-6" style="padding: 0px;">
                           <div class="job-box">
-                            <div id="jb-title"><a href="<?php echo base_url('jobs/'.$row->job_slug);?>" title="<?php echo $row->job_title;?>"><?php echo word_limiter(strip_tags(str_replace('-',' ',$row->job_title)),7);?></a>&nbsp;-&nbsp; <?php echo $row->pay;?></div>
-        										<div id="jb-city"><a href="<?php echo base_url('company/'.$row->company_slug);?>" title="Jobs in <?php echo $row->company_name;?>"><?php echo $row->company_name;?></a>&nbsp;-&nbsp; <?php echo $row->city;?></div>
-        										<div id="jb-date"><?php echo date_formats($row->dated, 'M d, Y');?></div>
+                            <div id="jb-title"><a href="<?php echo base_url('jobs/'.$row->job_slug);?>" title="<?php echo $row->job_title;?>"><?php echo word_limiter(strip_tags(str_replace('-',' ',$row->job_title)),7);?></a> </div>
+        					<div id="jb-city"><a href="<?php echo base_url('company/'.$row->company_slug);?>" title="Jobs in <?php echo $row->company_name;?>"><?php echo $row->company_name;?></a>&nbsp;-&nbsp; <?php echo $row->city;?></div>
+        					<div id="jb-date">Ksh. <?php echo $row->pay;?></div>
                           </div>
                         </div>
                         <div class="col-md-4 col-xs-4">

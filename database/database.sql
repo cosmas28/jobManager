@@ -853,7 +853,7 @@ delimiter ;;
 CREATE  PROCEDURE `ft_search_job`(IN param VARCHAR(255), param2 VARCHAR(255), from_limit INT(5), to_limit INT(5))
 BEGIN
 
-	SELECT pj.ID, pj.job_title, pj.job_slug, pj.employer_ID, pj.company_ID, pj.job_description, pj.city, pj.dated, pj.last_date, pj.is_featured, pj.sts, pc.company_name, pc.company_logo, pc.company_slug, MATCH(pj.job_title, pj.job_description) AGAINST(param) AS score
+	SELECT pj.ID, pj.job_title, pj.pay, pj.job_slug, pj.employer_ID, pj.company_ID, pj.job_description, pj.city, pj.dated, pj.last_date, pj.is_featured, pj.sts, pc.company_name, pc.company_logo, pc.company_slug, MATCH(pj.job_title, pj.job_description) AGAINST(param) AS score
 	FROM `pp_post_jobs` pj
 	INNER JOIN pp_companies AS pc ON pj.company_ID=pc.ID
 	WHERE pj.sts = 'active' AND pc.sts = 'active'

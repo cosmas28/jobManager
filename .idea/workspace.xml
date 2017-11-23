@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49580e72-5da7-4a25-b6bf-9b37eeb7b7b1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/database.sql" afterPath="$PROJECT_DIR$/database/database.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jobportal/jp_app/views/base/before_body_close.php" afterPath="$PROJECT_DIR$/jobportal/jp_app/views/base/before_body_close.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jobportal/jp_app/views/home_view.php" afterPath="$PROJECT_DIR$/jobportal/jp_app/views/home_view.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jobportal/jp_app/views/job_search_view.php" afterPath="$PROJECT_DIR$/jobportal/jp_app/views/job_search_view.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,25 +16,22 @@
     <splitter split-orientation="vertical" split-proportion="0.5287206">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="database.sql" pinned="false" current-in-tab="false">
+          <file leaf-file-name="database.sql" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/database/database.sql">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="118">
-                  <caret line="1315" column="13" lean-forward="true" selection-start-line="1290" selection-start-column="0" selection-end-line="1322" selection-end-column="0" />
+                <state relative-caret-position="84">
+                  <caret line="855" column="37" lean-forward="false" selection-start-line="855" selection-start-column="37" selection-end-line="855" selection-end-column="37" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="home_view.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/jobportal/jp_app/views/home_view.php">
+          <file leaf-file-name="job_search.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/jobportal/jp_app/controllers/job_search.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="204">
-                  <caret line="297" column="56" lean-forward="false" selection-start-line="297" selection-start-column="56" selection-end-line="297" selection-end-column="56" />
-                  <folding>
-                    <element signature="n#style#0;n#div#1;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#2;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                  </folding>
+                <state relative-caret-position="306">
+                  <caret line="36" column="51" lean-forward="true" selection-start-line="36" selection-start-column="51" selection-end-line="36" selection-end-column="51" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -44,21 +39,11 @@
           <file leaf-file-name="posted_jobs_model.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/jobportal/jp_app/models/posted_jobs_model.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-2006">
+                <state relative-caret-position="-3043">
                   <caret line="128" column="63" lean-forward="false" selection-start-line="128" selection-start-column="63" selection-end-line="128" selection-end-column="63" />
                   <folding>
                     <marker date="1510522762954" expanded="true" signature="9849:10224" ph="SELECT pj.ID... pp_post_jobs" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-            <entry file="file://D:/Canvas_[v4.4]/HTML/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-29212">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
                 </state>
               </provider>
             </entry>
@@ -77,24 +62,12 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="home.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/jobportal/jp_app/controllers/home.php">
+          <file leaf-file-name="job_search_view.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/jobportal/jp_app/views/job_search_view.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="85">
-                  <caret line="17" column="24" lean-forward="false" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+                <state relative-caret-position="68">
+                  <caret line="82" column="224" lean-forward="false" selection-start-line="82" selection-start-column="224" selection-end-line="82" selection-end-column="224" />
                   <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="post_new_job.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/jobportal/jp_app/controllers/employer/post_new_job.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="136">
-                  <caret line="32" column="46" lean-forward="false" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
-                  <folding>
-                    <marker date="1511360631037" expanded="true" signature="4076:4083" ph="×" />
-                  </folding>
                 </state>
               </provider>
             </entry>
@@ -109,7 +82,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/jobportal/jp_app/views/jobseeker/jobseeker_dashboard_view.php" />
         <option value="$PROJECT_DIR$/jobportal/jp_app/views/jobseeker/my_account_view.php" />
         <option value="$PROJECT_DIR$/jobportal/jp_app/controllers/jobseeker/dashboard.php" />
         <option value="$PROJECT_DIR$/jobportal/jp_app/views/base/header.php" />
@@ -158,8 +130,9 @@
         <option value="D:/php/jobportal-31/codecanyon-15330095-job-portal/jobportal/jp_app/views/job_details_view.php" />
         <option value="$PROJECT_DIR$/jobportal/jp_app/views/job_details_view.php" />
         <option value="$PROJECT_DIR$/jobportal/jp_app/views/base/before_body_close.php" />
-        <option value="$PROJECT_DIR$/database/database.sql" />
         <option value="$PROJECT_DIR$/jobportal/jp_app/views/home_view.php" />
+        <option value="$PROJECT_DIR$/database/database.sql" />
+        <option value="$PROJECT_DIR$/jobportal/jp_app/views/job_search_view.php" />
       </list>
     </option>
   </component>
@@ -170,7 +143,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="190" />
     <option name="y" value="385" />
     <option name="width" value="1200" />
@@ -217,15 +190,7 @@
               <item name="jobManager" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="jobportal" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="jp_app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="jobManager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jobManager" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="jobportal" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="jp_app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="employer" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="models" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -274,15 +239,15 @@
       <workItem from="1511256782291" duration="16926000" />
       <workItem from="1511344701992" duration="118000" />
       <workItem from="1511345639939" duration="16784000" />
-      <workItem from="1511448272005" duration="2765000" />
+      <workItem from="1511448272005" duration="3465000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96749000" />
+    <option name="totallyTimeSpent" value="97449000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.194375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -315,20 +280,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jobportal/jp_app/views/common/before_body_close.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/php/jobportal-31/codecanyon-15330095-job-portal/jobportal/jp_app/views/job_details_view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="211" column="41" lean-forward="true" selection-start-line="211" selection-start-column="26" selection-end-line="211" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jobportal/public/oldstatic/js/functions.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1989">
@@ -597,14 +548,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Canvas_[v4.4]/HTML/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-29212">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jobportal/jp_sys/database/DB_driver.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-12954">
@@ -685,35 +628,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jobportal/jp_app/models/posted_jobs_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2006">
-          <caret line="128" column="63" lean-forward="false" selection-start-line="128" selection-start-column="63" selection-end-line="128" selection-end-column="63" />
-          <folding>
-            <marker date="1510522762954" expanded="true" signature="9849:10224" ph="SELECT pj.ID... pp_post_jobs" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jobportal/jp_app/views/base/before_body_close.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="84" lean-forward="false" selection-start-line="2" selection-start-column="84" selection-end-line="2" selection-end-column="84" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jobportal/jp_app/controllers/home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="17" column="24" lean-forward="false" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jobportal/jp_app/controllers/employer/post_new_job.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="34">
           <caret line="32" column="46" lean-forward="false" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
           <folding>
             <marker date="1511360631037" expanded="true" signature="4076:4083" ph="×" />
@@ -721,10 +638,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/database.sql">
+    <entry file="file://$PROJECT_DIR$/jobportal/jp_app/controllers/home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="1315" column="13" lean-forward="true" selection-start-line="1290" selection-start-column="0" selection-end-line="1322" selection-end-column="0" />
+        <state relative-caret-position="85">
+          <caret line="17" column="24" lean-forward="false" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -737,6 +654,56 @@
             <element signature="n#style#0;n#div#1;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Canvas_[v4.4]/HTML/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-29176">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jobportal/jp_app/views/base/before_body_close.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="84" lean-forward="false" selection-start-line="2" selection-start-column="84" selection-end-line="2" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jobportal/jp_app/models/posted_jobs_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3043">
+          <caret line="128" column="63" lean-forward="false" selection-start-line="128" selection-start-column="63" selection-end-line="128" selection-end-column="63" />
+          <folding>
+            <marker date="1510522762954" expanded="true" signature="9849:10224" ph="SELECT pj.ID... pp_post_jobs" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jobportal/jp_app/controllers/job_search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="36" column="51" lean-forward="true" selection-start-line="36" selection-start-column="51" selection-end-line="36" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/database.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="855" column="37" lean-forward="false" selection-start-line="855" selection-start-column="37" selection-end-line="855" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jobportal/jp_app/views/job_search_view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="82" column="224" lean-forward="false" selection-start-line="82" selection-start-column="224" selection-end-line="82" selection-end-column="224" />
+          <folding />
         </state>
       </provider>
     </entry>
