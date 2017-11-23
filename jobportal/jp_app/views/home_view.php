@@ -293,7 +293,7 @@
                         </div>
                         <div class="col-md-6 col-xs-6" style="padding: 0px;">
                           <div class="job-box">
-                            <div class="jb-title"><a href="<?php echo base_url('jobs/'.$row_latest_jobs->job_slug);?>" title="<?php echo $row_latest_jobs->job_title;?>"><?php echo $job_title;?></a>&nbsp;-&nbsp; <?php echo $row_latest_jobs->pay;?></div>
+                            <div class="jb-title"><a href="<?php echo base_url('jobs/'.$row_latest_jobs->job_slug);?>" title="<?php echo $row_latest_jobs->job_title;?>"><?php echo $job_title;?></a></div>
                               <div class="jb-city"><a href="<?php echo base_url('company/'.$row_latest_jobs->company_slug);?>" title="Jobs in <?php echo $row_latest_jobs->company_name;?>"><?php echo $row_latest_jobs->company_name;?></a>&nbsp;-&nbsp; <?php echo $row_latest_jobs->city;?></div>
                               <div class="jb-city">Ksh. <?php echo $row_latest_jobs->pay;?></div>
                           </div>
