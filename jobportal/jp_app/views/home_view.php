@@ -34,7 +34,7 @@
       <div class="container clearfix notopmargin nobottommargin">
         <div id="section-features" class="heading-block title-center page-section">
           <h2>Find a job you love</h2>
-          <span>Each month, more than 7 million jobseekers turn to website in their search for work</span>
+          <span>Each month, more than thousands jobseekers turn to website in their search for work</span>
         </div>
 
         <div class="portfolio grid-container portfolio-nomargin portfolio-ajax clearfix" id="portfolio">
